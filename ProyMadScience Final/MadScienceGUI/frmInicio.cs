@@ -50,6 +50,7 @@ namespace MadScienceGUI
         {
             try
             {
+                //Validar
                 if (ValidarCampoVacio(txtContraseña.Text.Trim(), txtUsuario.Text.Trim()))
                 {
                     UsuarioBL objUsuarioBL = new UsuarioBL();

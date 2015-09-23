@@ -563,3 +563,6 @@ H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScience
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManMovilidadActualiza.resources
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoMovilidad.resources
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
