@@ -1,0 +1,80 @@
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience\MadScienceAdo\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience - copia\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final\MadScienceAdo\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.xml
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.xml
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.xml
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\bin\Debug\EntityFramework.xml
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceAdo\obj\Debug\MadScienceAdo.pdb

@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MADSCIENCEModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MADSCIENCEModelStoreContainer">
+    <EntitySet Name="tb_asignacion" EntityType="MADSCIENCEModel.Store.tb_asignacion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_detalle_reserva" EntityType="MADSCIENCEModel.Store.tb_detalle_reserva" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_disponibilidad" EntityType="MADSCIENCEModel.Store.tb_disponibilidad" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_especialidad" EntityType="MADSCIENCEModel.Store.tb_especialidad" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_fiesta" EntityType="MADSCIENCEModel.Store.tb_fiesta" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_fiesta_evento" EntityType="MADSCIENCEModel.Store.tb_fiesta_evento" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_horario" EntityType="MADSCIENCEModel.Store.tb_horario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_pago_fiesta" EntityType="MADSCIENCEModel.Store.tb_pago_fiesta" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_reserva" EntityType="MADSCIENCEModel.Store.tb_reserva" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_sabor" EntityType="MADSCIENCEModel.Store.tb_sabor" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_tienda" EntityType="MADSCIENCEModel.Store.tb_tienda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_tipo_evento" EntityType="MADSCIENCEModel.Store.tb_tipo_evento" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_tipo_fiesta" EntityType="MADSCIENCEModel.Store.tb_tipo_fiesta" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_tipo_pago" EntityType="MADSCIENCEModel.Store.tb_tipo_pago" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_torta" EntityType="MADSCIENCEModel.Store.tb_torta" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_trabajador" EntityType="MADSCIENCEModel.Store.tb_trabajador" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_usuario" EntityType="MADSCIENCEModel.Store.tb_usuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_zona" EntityType="MADSCIENCEModel.Store.tb_zona" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__tb_asigna__id_de__540C7B00" Association="MADSCIENCEModel.Store.FK__tb_asigna__id_de__540C7B00">
+      <End Role="tb_detalle_reserva" EntitySet="tb_detalle_reserva" />
+      <End Role="tb_asignacion" EntitySet="tb_asignacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_asigna__id_ti__55F4C372" Association="MADSCIENCEModel.Store.FK__tb_asigna__id_ti__55F4C372">
+      <End Role="tb_tipo_pago" EntitySet="tb_tipo_pago" />
+      <End Role="tb_asignacion" EntitySet="tb_asignacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_asigna__id_tr__55009F39" Association="MADSCIENCEModel.Store.FK__tb_asigna__id_tr__55009F39">
+      <End Role="tb_trabajador" EntitySet="tb_trabajador" />
+      <End Role="tb_asignacion" EntitySet="tb_asignacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_detall__id_fi__35BCFE0A" Association="MADSCIENCEModel.Store.FK__tb_detall__id_fi__35BCFE0A">
+      <End Role="tb_fiesta" EntitySet="tb_fiesta" />
+      <End Role="tb_detalle_reserva" EntitySet="tb_detalle_reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_detall__id_re__34C8D9D1" Association="MADSCIENCEModel.Store.FK__tb_detall__id_re__34C8D9D1">
+      <End Role="tb_reserva" EntitySet="tb_reserva" />
+      <End Role="tb_detalle_reserva" EntitySet="tb_detalle_reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_dispon__id_ho__24927208" Association="MADSCIENCEModel.Store.FK__tb_dispon__id_ho__24927208">
+      <End Role="tb_horario" EntitySet="tb_horario" />
+      <End Role="tb_disponibilidad" EntitySet="tb_disponibilidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_dispon__id_tr__25869641" Association="MADSCIENCEModel.Store.FK__tb_dispon__id_tr__25869641">
+      <End Role="tb_trabajador" EntitySet="tb_trabajador" />
+      <End Role="tb_disponibilidad" EntitySet="tb_disponibilidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_especi__id_fi__20C1E124" Association="MADSCIENCEModel.Store.FK__tb_especi__id_fi__20C1E124">
+      <End Role="tb_fiesta" EntitySet="tb_fiesta" />
+      <End Role="tb_especialidad" EntitySet="tb_especialidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_especi__id_tr__21B6055D" Association="MADSCIENCEModel.Store.FK__tb_especi__id_tr__21B6055D">
+      <End Role="tb_trabajador" EntitySet="tb_trabajador" />
+      <End Role="tb_especialidad" EntitySet="tb_especialidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_fiesta__id_fi__41B8C09B" Association="MADSCIENCEModel.Store.FK__tb_fiesta__id_fi__41B8C09B">
+      <End Role="tb_fiesta" EntitySet="tb_fiesta" />
+      <End Role="tb_fiesta_evento" EntitySet="tb_fiesta_evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_fiesta__id_ti__42ACE4D4" Association="MADSCIENCEModel.Store.FK__tb_fiesta__id_ti__42ACE4D4">
+      <End Role="tb_tipo_evento" EntitySet="tb_tipo_evento" />
+      <End Role="tb_fiesta_evento" EntitySet="tb_fiesta_evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_pago_f__id_fi__2D27B809" Association="MADSCIENCEModel.Store.FK__tb_pago_f__id_fi__2D27B809">
+      <End Role="tb_fiesta" EntitySet="tb_fiesta" />
+      <End Role="tb_pago_fiesta" EntitySet="tb_pago_fiesta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_pago_f__id_ti__2C3393D0" Association="MADSCIENCEModel.Store.FK__tb_pago_f__id_ti__2C3393D0">
+      <End Role="tb_tipo_pago" EntitySet="tb_tipo_pago" />
+      <End Role="tb_pago_fiesta" EntitySet="tb_pago_fiesta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_reserv__id_ti__30F848ED" Association="MADSCIENCEModel.Store.FK__tb_reserv__id_ti__30F848ED">
+      <End Role="tb_tienda" EntitySet="tb_tienda" />
+      <End Role="tb_reserva" EntitySet="tb_reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_reserv__id_ti__31EC6D26" Association="MADSCIENCEModel.Store.FK__tb_reserv__id_ti__31EC6D26">
+      <End Role="tb_tipo_evento" EntitySet="tb_tipo_evento" />
+      <End Role="tb_reserva" EntitySet="tb_reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_reserv__id_us__300424B4" Association="MADSCIENCEModel.Store.FK__tb_reserv__id_us__300424B4">
+      <End Role="tb_usuario" EntitySet="tb_usuario" />
+      <End Role="tb_reserva" EntitySet="tb_reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_tienda__id_zo__1DE57479" Association="MADSCIENCEModel.Store.FK__tb_tienda__id_zo__1DE57479">
+      <End Role="tb_zona" EntitySet="tb_zona" />
+      <End Role="tb_tienda" EntitySet="tb_tienda" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tipo_fiesta" Association="MADSCIENCEModel.Store.fk_tipo_fiesta">
+      <End Role="tb_tipo_fiesta" EntitySet="tb_tipo_fiesta" />
+      <End Role="tb_fiesta" EntitySet="tb_fiesta" />
+    </AssociationSet>
+    <AssociationSet Name="pk_reserva" Association="MADSCIENCEModel.Store.pk_reserva">
+      <End Role="tb_reserva" EntitySet="tb_reserva" />
+      <End Role="tb_asignacion" EntitySet="tb_asignacion" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tb_asignacion">
+    <Key>
+      <PropertyRef Name="id_asignacion" />
+    </Key>
+    <Property Name="id_asignacion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_detalle" Type="int" Nullable="false" />
+    <Property Name="id_trabajador" Type="int" Nullable="false" />
+    <Property Name="id_tipo_pago" Type="int" Nullable="false" />
+    <Property Name="monto" Type="float" Nullable="false" />
+    <Property Name="fch_reserva" Type="datetime" Nullable="false" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+    <Property Name="user_crea" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="horaInicio" Type="float" Nullable="false" />
+    <Property Name="horaFin" Type="float" Nullable="false" />
+    <Property Name="id_reserva" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_detalle_reserva">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_reserva" Type="int" Nullable="false" />
+    <Property Name="id_fiesta" Type="int" Nullable="false" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+    <Property Name="usr_crea" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_disponibilidad">
+    <Key>
+      <PropertyRef Name="id_horario" />
+      <PropertyRef Name="id_trabajador" />
+    </Key>
+    <Property Name="id_horario" Type="int" Nullable="false" />
+    <Property Name="id_trabajador" Type="int" Nullable="false" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+    <Property Name="usr_creacion" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_especialidad">
+    <Key>
+      <PropertyRef Name="id_fiesta" />
+      <PropertyRef Name="id_trabajador" />
+    </Key>
+    <Property Name="id_fiesta" Type="int" Nullable="false" />
+    <Property Name="id_trabajador" Type="int" Nullable="false" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+    <Property Name="usr_creacion" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_fiesta">
+    <Key>
+      <PropertyRef Name="id_fiesta" />
+    </Key>
+    <Property Name="id_fiesta" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="id_tipo_fiesta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_fiesta_evento">
+    <Key>
+      <PropertyRef Name="id_tipo_evento" />
+      <PropertyRef Name="id_fiesta" />
+    </Key>
+    <Property Name="id_tipo_evento" Type="int" Nullable="false" />
+    <Property Name="id_fiesta" Type="int" Nullable="false" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_horario">
+    <Key>
+      <PropertyRef Name="id_horario" />
+    </Key>
+    <Property Name="id_horario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nomDia" Type="varchar" MaxLength="10" />
+    <Property Name="horaInicio" Type="float" />
+    <Property Name="horaFin" Type="float" />
+  </EntityType>
+  <EntityType Name="tb_pago_fiesta">
+    <Key>
+      <PropertyRef Name="id_tipo_pago" />
+      <PropertyRef Name="id_fiesta" />
+    </Key>
+    <Property Name="id_tipo_pago" Type="int" Nullable="false" />
+    <Property Name="id_fiesta" Type="int" Nullable="false" />
+    <Property Name="monto" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_reserva">
+    <Key>
+      <PropertyRef Name="id_reserva" />
+    </Key>
+    <Property Name="id_reserva" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_tipo_evento" Type="int" Nullable="false" />
+    <Property Name="id_tienda" Type="int" />
+    <Property Name="id_usuario" Type="int" Nullable="false" />
+    <Property Name="direccion" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="nombreNiño" Type="varchar" MaxLength="100" />
+    <Property Name="fechaNacimiento" Type="date" />
+    <Property Name="telefono" Type="varchar" MaxLength="12" />
+    <Property Name="celular" Type="varchar" MaxLength="12" />
+    <Property Name="nombreCliente" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="fechaCelebracion" Type="date" Nullable="false" />
+    <Property Name="horaInicio" Type="float" Nullable="false" />
+    <Property Name="horaFin" Type="float" Nullable="false" />
+    <Property Name="modeloTorta" Type="varchar" MaxLength="100" />
+    <Property Name="saborTorta" Type="varchar" MaxLength="100" />
+    <Property Name="obsTorta2" Type="varchar" MaxLength="100" />
+    <Property Name="invitados" Type="int" />
+    <Property Name="obsGeneral" Type="varchar" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" MaxLength="1" />
+    <Property Name="usr_crea" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+    <Property Name="flg_doble" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tb_sabor">
+    <Key>
+      <PropertyRef Name="id_sabor" />
+    </Key>
+    <Property Name="id_sabor" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tb_tienda">
+    <Key>
+      <PropertyRef Name="id_tienda" />
+    </Key>
+    <Property Name="id_tienda" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_zona" Type="int" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="direccion" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_tipo_evento">
+    <Key>
+      <PropertyRef Name="id_tipo_evento" />
+    </Key>
+    <Property Name="id_tipo_evento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tb_tipo_fiesta">
+    <Key>
+      <PropertyRef Name="id_tipo_fiesta" />
+    </Key>
+    <Property Name="id_tipo_fiesta" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="fch_creacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_tipo_pago">
+    <Key>
+      <PropertyRef Name="id_tipo_pago" />
+    </Key>
+    <Property Name="id_tipo_pago" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tb_torta">
+    <Key>
+      <PropertyRef Name="id_torta" />
+    </Key>
+    <Property Name="id_torta" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tb_trabajador">
+    <Key>
+      <PropertyRef Name="id_trabajador" />
+    </Key>
+    <Property Name="id_trabajador" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" MaxLength="200" />
+    <Property Name="flg_estado" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tb_usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="apePat" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="apeMat" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="constraseña" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="login" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tb_zona">
+    <Key>
+      <PropertyRef Name="id_zona" />
+    </Key>
+    <Property Name="id_zona" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="flg_estado" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <Association Name="FK__tb_asigna__id_de__540C7B00">
+    <End Role="tb_detalle_reserva" Type="MADSCIENCEModel.Store.tb_detalle_reserva" Multiplicity="1" />
+    <End Role="tb_asignacion" Type="MADSCIENCEModel.Store.tb_asignacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_detalle_reserva">
+        <PropertyRef Name="id_detalle" />
+      </Principal>
+      <Dependent Role="tb_asignacion">
+        <PropertyRef Name="id_detalle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_asigna__id_ti__55F4C372">
+    <End Role="tb_tipo_pago" Type="MADSCIENCEModel.Store.tb_tipo_pago" Multiplicity="1" />
+    <End Role="tb_asignacion" Type="MADSCIENCEModel.Store.tb_asignacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_tipo_pago">
+        <PropertyRef Name="id_tipo_pago" />
+      </Principal>
+      <Dependent Role="tb_asignacion">
+        <PropertyRef Name="id_tipo_pago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_asigna__id_tr__55009F39">
+    <End Role="tb_trabajador" Type="MADSCIENCEModel.Store.tb_trabajador" Multiplicity="1" />
+    <End Role="tb_asignacion" Type="MADSCIENCEModel.Store.tb_asignacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_trabajador">
+        <PropertyRef Name="id_trabajador" />
+      </Principal>
+      <Dependent Role="tb_asignacion">
+        <PropertyRef Name="id_trabajador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_detall__id_fi__35BCFE0A">
+    <End Role="tb_fiesta" Type="MADSCIENCEModel.Store.tb_fiesta" Multiplicity="1" />
+    <End Role="tb_detalle_reserva" Type="MADSCIENCEModel.Store.tb_detalle_reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_fiesta">
+        <PropertyRef Name="id_fiesta" />
+      </Principal>
+      <Dependent Role="tb_detalle_reserva">
+        <PropertyRef Name="id_fiesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_detall__id_re__34C8D9D1">
+    <End Role="tb_reserva" Type="MADSCIENCEModel.Store.tb_reserva" Multiplicity="1" />
+    <End Role="tb_detalle_reserva" Type="MADSCIENCEModel.Store.tb_detalle_reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_reserva">
+        <PropertyRef Name="id_reserva" />
+      </Principal>
+      <Dependent Role="tb_detalle_reserva">
+        <PropertyRef Name="id_reserva" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_dispon__id_ho__24927208">
+    <End Role="tb_horario" Type="MADSCIENCEModel.Store.tb_horario" Multiplicity="1" />
+    <End Role="tb_disponibilidad" Type="MADSCIENCEModel.Store.tb_disponibilidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_horario">
+        <PropertyRef Name="id_horario" />
+      </Principal>
+      <Dependent Role="tb_disponibilidad">
+        <PropertyRef Name="id_horario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_dispon__id_tr__25869641">
+    <End Role="tb_trabajador" Type="MADSCIENCEModel.Store.tb_trabajador" Multiplicity="1" />
+    <End Role="tb_disponibilidad" Type="MADSCIENCEModel.Store.tb_disponibilidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_trabajador">
+        <PropertyRef Name="id_trabajador" />
+      </Principal>
+      <Dependent Role="tb_disponibilidad">
+        <PropertyRef Name="id_trabajador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_especi__id_fi__20C1E124">
+    <End Role="tb_fiesta" Type="MADSCIENCEModel.Store.tb_fiesta" Multiplicity="1" />
+    <End Role="tb_especialidad" Type="MADSCIENCEModel.Store.tb_especialidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_fiesta">
+        <PropertyRef Name="id_fiesta" />
+      </Principal>
+      <Dependent Role="tb_especialidad">
+        <PropertyRef Name="id_fiesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_especi__id_tr__21B6055D">
+    <End Role="tb_trabajador" Type="MADSCIENCEModel.Store.tb_trabajador" Multiplicity="1" />
+    <End Role="tb_especialidad" Type="MADSCIENCEModel.Store.tb_especialidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_trabajador">
+        <PropertyRef Name="id_trabajador" />
+      </Principal>
+      <Dependent Role="tb_especialidad">
+        <PropertyRef Name="id_trabajador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_fiesta__id_fi__41B8C09B">
+    <End Role="tb_fiesta" Type="MADSCIENCEModel.Store.tb_fiesta" Multiplicity="1" />
+    <End Role="tb_fiesta_evento" Type="MADSCIENCEModel.Store.tb_fiesta_evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_fiesta">
+        <PropertyRef Name="id_fiesta" />
+      </Principal>
+      <Dependent Role="tb_fiesta_evento">
+        <PropertyRef Name="id_fiesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_fiesta__id_ti__42ACE4D4">
+    <End Role="tb_tipo_evento" Type="MADSCIENCEModel.Store.tb_tipo_evento" Multiplicity="1" />
+    <End Role="tb_fiesta_evento" Type="MADSCIENCEModel.Store.tb_fiesta_evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_tipo_evento">
+        <PropertyRef Name="id_tipo_evento" />
+      </Principal>
+      <Dependent Role="tb_fiesta_evento">
+        <PropertyRef Name="id_tipo_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_pago_f__id_fi__2D27B809">
+    <End Role="tb_fiesta" Type="MADSCIENCEModel.Store.tb_fiesta" Multiplicity="1" />
+    <End Role="tb_pago_fiesta" Type="MADSCIENCEModel.Store.tb_pago_fiesta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_fiesta">
+        <PropertyRef Name="id_fiesta" />
+      </Principal>
+      <Dependent Role="tb_pago_fiesta">
+        <PropertyRef Name="id_fiesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_pago_f__id_ti__2C3393D0">
+    <End Role="tb_tipo_pago" Type="MADSCIENCEModel.Store.tb_tipo_pago" Multiplicity="1" />
+    <End Role="tb_pago_fiesta" Type="MADSCIENCEModel.Store.tb_pago_fiesta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_tipo_pago">
+        <PropertyRef Name="id_tipo_pago" />
+      </Principal>
+      <Dependent Role="tb_pago_fiesta">
+        <PropertyRef Name="id_tipo_pago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_reserv__id_ti__30F848ED">
+    <End Role="tb_tienda" Type="MADSCIENCEModel.Store.tb_tienda" Multiplicity="0..1" />
+    <End Role="tb_reserva" Type="MADSCIENCEModel.Store.tb_reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_tienda">
+        <PropertyRef Name="id_tienda" />
+      </Principal>
+      <Dependent Role="tb_reserva">
+        <PropertyRef Name="id_tienda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_reserv__id_ti__31EC6D26">
+    <End Role="tb_tipo_evento" Type="MADSCIENCEModel.Store.tb_tipo_evento" Multiplicity="1" />
+    <End Role="tb_reserva" Type="MADSCIENCEModel.Store.tb_reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_tipo_evento">
+        <PropertyRef Name="id_tipo_evento" />
+      </Principal>
+      <Dependent Role="tb_reserva">
+        <PropertyRef Name="id_tipo_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_reserv__id_us__300424B4">
+    <End Role="tb_usuario" Type="MADSCIENCEModel.Store.tb_usuario" Multiplicity="1" />
+    <End Role="tb_reserva" Type="MADSCIENCEModel.Store.tb_reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_usuario">
+        <PropertyRef Name="id_usuario" />
+      </Principal>
+      <Dependent Role="tb_reserva">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_tienda__id_zo__1DE57479">
+    <End Role="tb_zona" Type="MADSCIENCEModel.Store.tb_zona" Multiplicity="0..1" />
+    <End Role="tb_tienda" Type="MADSCIENCEModel.Store.tb_tienda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_zona">
+        <PropertyRef Name="id_zona" />
+      </Principal>
+      <Dependent Role="tb_tienda">
+        <PropertyRef Name="id_zona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tipo_fiesta">
+    <End Role="tb_tipo_fiesta" Type="MADSCIENCEModel.Store.tb_tipo_fiesta" Multiplicity="1" />
+    <End Role="tb_fiesta" Type="MADSCIENCEModel.Store.tb_fiesta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_tipo_fiesta">
+        <PropertyRef Name="id_tipo_fiesta" />
+      </Principal>
+      <Dependent Role="tb_fiesta">
+        <PropertyRef Name="id_tipo_fiesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="pk_reserva">
+    <End Role="tb_reserva" Type="MADSCIENCEModel.Store.tb_reserva" Multiplicity="1" />
+    <End Role="tb_asignacion" Type="MADSCIENCEModel.Store.tb_asignacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_reserva">
+        <PropertyRef Name="id_reserva" />
+      </Principal>
+      <Dependent Role="tb_asignacion">
+        <PropertyRef Name="id_reserva" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

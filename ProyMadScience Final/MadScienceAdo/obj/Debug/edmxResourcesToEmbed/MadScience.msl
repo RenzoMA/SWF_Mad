@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MADSCIENCEModelStoreContainer" CdmEntityContainer="MADSCIENCEEntities">
+    <EntitySetMapping Name="tb_asignacion">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_asignacion">
+        <MappingFragment StoreEntitySet="tb_asignacion">
+          <ScalarProperty Name="id_reserva" ColumnName="id_reserva" />
+          <ScalarProperty Name="horaFin" ColumnName="horaFin" />
+          <ScalarProperty Name="horaInicio" ColumnName="horaInicio" />
+          <ScalarProperty Name="id_asignacion" ColumnName="id_asignacion" />
+          <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+          <ScalarProperty Name="id_trabajador" ColumnName="id_trabajador" />
+          <ScalarProperty Name="id_tipo_pago" ColumnName="id_tipo_pago" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="fch_reserva" ColumnName="fch_reserva" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+          <ScalarProperty Name="user_crea" ColumnName="user_crea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_detalle_reserva">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_detalle_reserva">
+        <MappingFragment StoreEntitySet="tb_detalle_reserva">
+          <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+          <ScalarProperty Name="id_reserva" ColumnName="id_reserva" />
+          <ScalarProperty Name="id_fiesta" ColumnName="id_fiesta" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+          <ScalarProperty Name="usr_crea" ColumnName="usr_crea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_disponibilidad">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_disponibilidad">
+        <MappingFragment StoreEntitySet="tb_disponibilidad">
+          <ScalarProperty Name="id_horario" ColumnName="id_horario" />
+          <ScalarProperty Name="id_trabajador" ColumnName="id_trabajador" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+          <ScalarProperty Name="usr_creacion" ColumnName="usr_creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_especialidad">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_especialidad">
+        <MappingFragment StoreEntitySet="tb_especialidad">
+          <ScalarProperty Name="id_fiesta" ColumnName="id_fiesta" />
+          <ScalarProperty Name="id_trabajador" ColumnName="id_trabajador" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+          <ScalarProperty Name="usr_creacion" ColumnName="usr_creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_fiesta">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_fiesta">
+        <MappingFragment StoreEntitySet="tb_fiesta">
+          <ScalarProperty Name="id_fiesta" ColumnName="id_fiesta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+          <ScalarProperty Name="id_tipo_fiesta" ColumnName="id_tipo_fiesta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_fiesta_evento">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_fiesta_evento">
+        <MappingFragment StoreEntitySet="tb_fiesta_evento">
+          <ScalarProperty Name="id_tipo_evento" ColumnName="id_tipo_evento" />
+          <ScalarProperty Name="id_fiesta" ColumnName="id_fiesta" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_horario">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_horario">
+        <MappingFragment StoreEntitySet="tb_horario">
+          <ScalarProperty Name="id_horario" ColumnName="id_horario" />
+          <ScalarProperty Name="nomDia" ColumnName="nomDia" />
+          <ScalarProperty Name="horaInicio" ColumnName="horaInicio" />
+          <ScalarProperty Name="horaFin" ColumnName="horaFin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_pago_fiesta">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_pago_fiesta">
+        <MappingFragment StoreEntitySet="tb_pago_fiesta">
+          <ScalarProperty Name="id_tipo_pago" ColumnName="id_tipo_pago" />
+          <ScalarProperty Name="id_fiesta" ColumnName="id_fiesta" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_reserva">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_reserva">
+        <MappingFragment StoreEntitySet="tb_reserva">
+          <ScalarProperty Name="flg_doble" ColumnName="flg_doble" />
+          <ScalarProperty Name="id_reserva" ColumnName="id_reserva" />
+          <ScalarProperty Name="id_tipo_evento" ColumnName="id_tipo_evento" />
+          <ScalarProperty Name="id_tienda" ColumnName="id_tienda" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="nombreNiño" ColumnName="nombreNiño" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="nombreCliente" ColumnName="nombreCliente" />
+          <ScalarProperty Name="fechaCelebracion" ColumnName="fechaCelebracion" />
+          <ScalarProperty Name="horaInicio" ColumnName="horaInicio" />
+          <ScalarProperty Name="horaFin" ColumnName="horaFin" />
+          <ScalarProperty Name="modeloTorta" ColumnName="modeloTorta" />
+          <ScalarProperty Name="saborTorta" ColumnName="saborTorta" />
+          <ScalarProperty Name="obsTorta2" ColumnName="obsTorta2" />
+          <ScalarProperty Name="invitados" ColumnName="invitados" />
+          <ScalarProperty Name="obsGeneral" ColumnName="obsGeneral" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+          <ScalarProperty Name="usr_crea" ColumnName="usr_crea" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sabor">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_sabor">
+        <MappingFragment StoreEntitySet="tb_sabor">
+          <ScalarProperty Name="id_sabor" ColumnName="id_sabor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_tienda">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_tienda">
+        <MappingFragment StoreEntitySet="tb_tienda">
+          <ScalarProperty Name="id_tienda" ColumnName="id_tienda" />
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_tipo_evento">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_tipo_evento">
+        <MappingFragment StoreEntitySet="tb_tipo_evento">
+          <ScalarProperty Name="id_tipo_evento" ColumnName="id_tipo_evento" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_tipo_fiesta">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_tipo_fiesta">
+        <MappingFragment StoreEntitySet="tb_tipo_fiesta">
+          <ScalarProperty Name="id_tipo_fiesta" ColumnName="id_tipo_fiesta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+          <ScalarProperty Name="fch_creacion" ColumnName="fch_creacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_tipo_pago">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_tipo_pago">
+        <MappingFragment StoreEntitySet="tb_tipo_pago">
+          <ScalarProperty Name="id_tipo_pago" ColumnName="id_tipo_pago" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_torta">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_torta">
+        <MappingFragment StoreEntitySet="tb_torta">
+          <ScalarProperty Name="id_torta" ColumnName="id_torta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_trabajador">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_trabajador">
+        <MappingFragment StoreEntitySet="tb_trabajador">
+          <ScalarProperty Name="id_trabajador" ColumnName="id_trabajador" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_usuario">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_usuario">
+        <MappingFragment StoreEntitySet="tb_usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apePat" ColumnName="apePat" />
+          <ScalarProperty Name="apeMat" ColumnName="apeMat" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+          <ScalarProperty Name="constraseña" ColumnName="constraseña" />
+          <ScalarProperty Name="login" ColumnName="login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_zona">
+      <EntityTypeMapping TypeName="MADSCIENCEModel.tb_zona">
+        <MappingFragment StoreEntitySet="tb_zona">
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="flg_estado" ColumnName="flg_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

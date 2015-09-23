@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A371C4F3-57E0-4F59-8EDB-76151691BBA1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MadScienceBL</RootNamespace>
+    <AssemblyName>MadScienceBL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsignacionBL.cs" />
+    <Compile Include="DetalleReservaBL.cs" />
+    <Compile Include="DisponibilidadBL.cs" />
+    <Compile Include="EspecialidadBL.cs" />
+    <Compile Include="FiestaBL.cs" />
+    <Compile Include="FiestaEventoBL.cs" />
+    <Compile Include="HorarioBL.cs" />
+    <Compile Include="PagoFiestaBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservaBL.cs" />
+    <Compile Include="Constantes.cs" />
+    <Compile Include="SaborBL.cs" />
+    <Compile Include="TiendaBL.cs" />
+    <Compile Include="TipoEventoBL.cs" />
+    <Compile Include="TipoFiestaBL.cs" />
+    <Compile Include="TipoMovilidadBL.cs" />
+    <Compile Include="TipoPagoBL.cs" />
+    <Compile Include="TortaBL.cs" />
+    <Compile Include="TrabajadorBL.cs" />
+    <Compile Include="UsuarioBL.cs" />
+    <Compile Include="Util\Excel.cs" />
+    <Compile Include="ZonaBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MadScienceAdo\MadScienceAdo.csproj">
+      <Project>{63a3b1f5-359b-4e6c-aaf9-d0a245b87553}</Project>
+      <Name>MadScienceAdo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MadScienceBE\MadScienceBE.csproj">
+      <Project>{10f85e2c-b943-4c77-b3d3-cdc7b255709e}</Project>
+      <Name>MadScienceBE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

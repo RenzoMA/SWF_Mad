@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63A3B1F5-359B-4E6C-AAF9-D0A245B87553}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MadScienceAdo</RootNamespace>
+    <AssemblyName>MadScienceAdo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCESS\Access.cs" />
+    <Compile Include="ACCESS\AsignacionAccess.cs" />
+    <Compile Include="ACCESS\DetalleReservaAccess.cs" />
+    <Compile Include="ACCESS\DisponibilidadAccess.cs" />
+    <Compile Include="ACCESS\EspecialidadAccess.cs" />
+    <Compile Include="ACCESS\FiestaAccess.cs" />
+    <Compile Include="ACCESS\FiestaEventoAccess.cs" />
+    <Compile Include="ACCESS\HorarioAccess.cs" />
+    <Compile Include="ACCESS\PagoFiestaAccess.cs" />
+    <Compile Include="ACCESS\ReservaAccess.cs" />
+    <Compile Include="ACCESS\SaborAccess.cs" />
+    <Compile Include="ACCESS\TiendaAccess.cs" />
+    <Compile Include="ACCESS\TipoEventoAccess.cs" />
+    <Compile Include="ACCESS\TipoFiestaAccess.cs" />
+    <Compile Include="ACCESS\TipoMovilidadAccess.cs" />
+    <Compile Include="ACCESS\TipoPagoAccess.cs" />
+    <Compile Include="ACCESS\TortaAccess.cs" />
+    <Compile Include="ACCESS\TrabajadorAccess.cs" />
+    <Compile Include="ACCESS\UsuarioAccess.cs" />
+    <Compile Include="ACCESS\ZonaAccess.cs" />
+    <Compile Include="DaoFactory.cs" />
+    <Compile Include="MadScience.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MadScience.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MadScience.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MadScience.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MadScience.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MSSQL\AsignacionSQL.cs" />
+    <Compile Include="MSSQL\DetalleReservaSQL.cs" />
+    <Compile Include="MSSQL\DisponibilidadSQL.cs" />
+    <Compile Include="MSSQL\EspecialidadSQL.cs" />
+    <Compile Include="MSSQL\FiestaEventoSQL.cs" />
+    <Compile Include="MSSQL\FiestaSQL.cs" />
+    <Compile Include="MSSQL\HorarioSQL.cs" />
+    <Compile Include="MSSQL\PagoFiestaSQL.cs" />
+    <Compile Include="MSSQL\ReservaSQL.cs" />
+    <Compile Include="MSSQL\SaborSQL.cs" />
+    <Compile Include="MSSQL\TiendaSQL.cs" />
+    <Compile Include="MSSQL\TipoEventoSQL.cs" />
+    <Compile Include="MSSQL\TipoFiestaSQL.cs" />
+    <Compile Include="MSSQL\TipoPagoSQL.cs" />
+    <Compile Include="MSSQL\TortaSQL.cs" />
+    <Compile Include="MSSQL\TrabajadorSQL.cs" />
+    <Compile Include="MSSQL\UsuarioSQL.cs" />
+    <Compile Include="MSSQL\ZonaSQL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\ServicioGenerico.cs" />
+    <Compile Include="tb_asignacion.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_detalle_reserva.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_disponibilidad.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_especialidad.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_fiesta.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_fiesta_evento.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_horario.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_pago_fiesta.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_reserva.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_sabor.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_tienda.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_tipo_evento.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_tipo_fiesta.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_tipo_pago.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_torta.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_trabajador.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_usuario.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_zona.cs">
+      <DependentUpon>MadScience.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="MadScience.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MadScience.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="MadScience.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MadScience.edmx</DependentUpon>
+      <LastGenOutput>MadScience.Context.cs</LastGenOutput>
+    </None>
+    <None Include="MadScience.edmx.diagram">
+      <DependentUpon>MadScience.edmx</DependentUpon>
+    </None>
+    <None Include="MadScience.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MadScience.edmx</DependentUpon>
+      <LastGenOutput>MadScience.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MadScienceBE\MadScienceBE.csproj">
+      <Project>{10f85e2c-b943-4c77-b3d3-cdc7b255709e}</Project>
+      <Name>MadScienceBE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

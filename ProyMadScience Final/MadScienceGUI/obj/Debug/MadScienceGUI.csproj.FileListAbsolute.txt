@@ -1,0 +1,565 @@
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceBL.dll
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience\MadScienceGUI\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmReport.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+E:\MadScience\ProyMadScience\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\RdlCompile.cache
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\RdlCompile.compiled
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceBL.dll
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+E:\MadScience\ProyMadScience - copia\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\RdlCompile.cache
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\RdlCompile.compiled
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceBL.dll
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience Final\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience Final\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.xml
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.cache
+E:\MadScience\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.compiled
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.xml
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.cache
+C:\ms\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.compiled
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.xml
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.cache
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.compiled
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.xml
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.cache
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.compiled
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.manifest
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.application
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe.manifest
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.application
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.config
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe.manifest
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.application
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.exe
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceGUI.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBE.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceBL.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\EntityFramework.xml
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\bin\Debug\MadScienceAdo.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csprojResolveAssemblyReference.cache
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmCambioContraseña.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaAsignaciones.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmConsultaDisponibilidadEspecialidad.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmDisponibilidad.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmEspecialidad.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmInicio.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManEventoFiesta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiesta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManFiestaCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManMovilidad.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManMovilidadCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReserva.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAgregaFiesta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsigna.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaAsignarTrabajador.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManReservaCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSabor.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManSaborCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTienda.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaActualizar.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTiendaCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEvento.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoActualizar.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoEventoCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiesta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoFiestaCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPago.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoActualizar.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTipoPagoCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTorta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTortaCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajador.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorActualizar.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManTrabajadorCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuario.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManUsuarioCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZona.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManZonaCrea.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPagoFiesta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmPrincipal.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptDetalleFiestaTienda.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoDetalle.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTienda.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPago.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptTorta.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptAsignaciones.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmSeleccionaTiendaImportacion.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.Properties.Resources.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.csproj.GenerateResource.Cache
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.cache
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\RdlCompile.compiled
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe.manifest
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.application
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.exe
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmManMovilidadActualiza.resources
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceGUI\obj\Debug\MadScienceGUI.frmRptPagoMovilidad.resources

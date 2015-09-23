@@ -1,0 +1,34 @@
+E:\MadScience\ProyMadScience\MadScienceBE\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience\MadScienceBE\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience\MadScienceBE\obj\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience\MadScienceBE\obj\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceBE\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience - copia\MadScienceBE\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience - copia\MadScienceBE\obj\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience - copia\MadScienceBE\obj\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.pdb
+E:\MadScience\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.dll
+E:\MadScience\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.pdb
+C:\ms\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.csprojResolveAssemblyReference.cache
+C:\ms\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.dll
+C:\ms\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.pdb
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.dll
+E:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.dll
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.pdb
+F:\FinalMS\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.csprojResolveAssemblyReference.cache
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.pdb
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.dll
+H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.pdb

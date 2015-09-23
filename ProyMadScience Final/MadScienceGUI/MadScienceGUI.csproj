@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2858FCD-DBF8-4F17-A069-6806D45EB90F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MadScienceGUI</RootNamespace>
+    <AssemblyName>MadScienceGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\192.168.233.2\Msj CallCenter\ms\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\192.168.233.2\Msj CallCenter\ms\</InstallUrl>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>klab.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>459FC6CC9E8AEF95D47280755C1FD50FBF60364F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MadScienceGUI_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCambioContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambioContraseña.Designer.cs">
+      <DependentUpon>frmCambioContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaAsignaciones.Designer.cs">
+      <DependentUpon>frmConsultaAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaDisponibilidadEspecialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaDisponibilidadEspecialidad.Designer.cs">
+      <DependentUpon>frmConsultaDisponibilidadEspecialidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisponibilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDisponibilidad.Designer.cs">
+      <DependentUpon>frmDisponibilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEspecialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEspecialidad.Designer.cs">
+      <DependentUpon>frmEspecialidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManEventoFiesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManEventoFiesta.Designer.cs">
+      <DependentUpon>frmManEventoFiesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManFiestaCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManFiestaCrea.Designer.cs">
+      <DependentUpon>frmManFiestaCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManFiestaActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManFiestaActualiza.Designer.cs">
+      <DependentUpon>frmManFiestaActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManFiesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManFiesta.Designer.cs">
+      <DependentUpon>frmManFiesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManMovilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManMovilidad.Designer.cs">
+      <DependentUpon>frmManMovilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManMovilidadActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManMovilidadActualiza.Designer.cs">
+      <DependentUpon>frmManMovilidadActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManMovilidadCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManMovilidadCrea.Designer.cs">
+      <DependentUpon>frmManMovilidadCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManReserva.Designer.cs">
+      <DependentUpon>frmManReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManReservaActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManReservaActualiza.Designer.cs">
+      <DependentUpon>frmManReservaActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManReservaAgregaFiesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManReservaAgregaFiesta.Designer.cs">
+      <DependentUpon>frmManReservaAgregaFiesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManReservaAsigna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManReservaAsigna.Designer.cs">
+      <DependentUpon>frmManReservaAsigna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManReservaAsignarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManReservaAsignarTrabajador.Designer.cs">
+      <DependentUpon>frmManReservaAsignarTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManReservaCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManReservaCrea.Designer.cs">
+      <DependentUpon>frmManReservaCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManSabor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManSabor.Designer.cs">
+      <DependentUpon>frmManSabor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManSaborActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManSaborActualiza.Designer.cs">
+      <DependentUpon>frmManSaborActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManSaborCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManSaborCrea.Designer.cs">
+      <DependentUpon>frmManSaborCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTienda.Designer.cs">
+      <DependentUpon>frmManTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTiendaActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTiendaActualizar.Designer.cs">
+      <DependentUpon>frmManTiendaActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTiendaCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTiendaCrea.Designer.cs">
+      <DependentUpon>frmManTiendaCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoEvento.Designer.cs">
+      <DependentUpon>frmManTipoEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoEventoActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoEventoActualizar.Designer.cs">
+      <DependentUpon>frmManTipoEventoActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoEventoCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoEventoCrea.Designer.cs">
+      <DependentUpon>frmManTipoEventoCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoFiesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoFiesta.Designer.cs">
+      <DependentUpon>frmManTipoFiesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoFiestaActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoFiestaActualiza.Designer.cs">
+      <DependentUpon>frmManTipoFiestaActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoFiestaCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoFiestaCrea.Designer.cs">
+      <DependentUpon>frmManTipoFiestaCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoPago.Designer.cs">
+      <DependentUpon>frmManTipoPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoPagoActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoPagoActualizar.Designer.cs">
+      <DependentUpon>frmManTipoPagoActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTipoPagoCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTipoPagoCrea.Designer.cs">
+      <DependentUpon>frmManTipoPagoCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTorta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTorta.Designer.cs">
+      <DependentUpon>frmManTorta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTortaActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTortaActualiza.Designer.cs">
+      <DependentUpon>frmManTortaActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTortaCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTortaCrea.Designer.cs">
+      <DependentUpon>frmManTortaCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTrabajador.Designer.cs">
+      <DependentUpon>frmManTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTrabajadorActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTrabajadorActualizar.Designer.cs">
+      <DependentUpon>frmManTrabajadorActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTrabajadorCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTrabajadorCrea.Designer.cs">
+      <DependentUpon>frmManTrabajadorCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManUsuario.Designer.cs">
+      <DependentUpon>frmManUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManUsuarioActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManUsuarioActualiza.Designer.cs">
+      <DependentUpon>frmManUsuarioActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManUsuarioCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManUsuarioCrea.Designer.cs">
+      <DependentUpon>frmManUsuarioCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManZona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManZona.Designer.cs">
+      <DependentUpon>frmManZona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManZonaActualiza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManZonaActualiza.Designer.cs">
+      <DependentUpon>frmManZonaActualiza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManZonaCrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManZonaCrea.Designer.cs">
+      <DependentUpon>frmManZonaCrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagoFiesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagoFiesta.Designer.cs">
+      <DependentUpon>frmPagoFiesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptDetalleFiestaTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptDetalleFiestaTienda.Designer.cs">
+      <DependentUpon>frmRptDetalleFiestaTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptPagoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptPagoDetalle.Designer.cs">
+      <DependentUpon>frmRptPagoDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptPagoMovilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptPagoMovilidad.Designer.cs">
+      <DependentUpon>frmRptPagoMovilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptTienda.Designer.cs">
+      <DependentUpon>frmRptTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptPago.Designer.cs">
+      <DependentUpon>frmRptPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptTorta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptTorta.Designer.cs">
+      <DependentUpon>frmRptTorta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptAsignaciones.Designer.cs">
+      <DependentUpon>frmRptAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeleccionaTiendaImportacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeleccionaTiendaImportacion.Designer.cs">
+      <DependentUpon>frmSeleccionaTiendaImportacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sesion.cs" />
+    <EmbeddedResource Include="frmCambioContraseña.resx">
+      <DependentUpon>frmCambioContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaAsignaciones.resx">
+      <DependentUpon>frmConsultaAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaDisponibilidadEspecialidad.resx">
+      <DependentUpon>frmConsultaDisponibilidadEspecialidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisponibilidad.resx">
+      <DependentUpon>frmDisponibilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEspecialidad.resx">
+      <DependentUpon>frmEspecialidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManEventoFiesta.resx">
+      <DependentUpon>frmManEventoFiesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManFiesta.resx">
+      <DependentUpon>frmManFiesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManFiestaActualiza.resx">
+      <DependentUpon>frmManFiestaActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManFiestaCrea.resx">
+      <DependentUpon>frmManFiestaCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManMovilidad.resx">
+      <DependentUpon>frmManMovilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManMovilidadActualiza.resx">
+      <DependentUpon>frmManMovilidadActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManMovilidadCrea.resx">
+      <DependentUpon>frmManMovilidadCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManReserva.resx">
+      <DependentUpon>frmManReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManReservaActualiza.resx">
+      <DependentUpon>frmManReservaActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManReservaAgregaFiesta.resx">
+      <DependentUpon>frmManReservaAgregaFiesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManReservaAsigna.resx">
+      <DependentUpon>frmManReservaAsigna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManReservaAsignarTrabajador.resx">
+      <DependentUpon>frmManReservaAsignarTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManReservaCrea.resx">
+      <DependentUpon>frmManReservaCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManSabor.resx">
+      <DependentUpon>frmManSabor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManSaborActualiza.resx">
+      <DependentUpon>frmManSaborActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManSaborCrea.resx">
+      <DependentUpon>frmManSaborCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTienda.resx">
+      <DependentUpon>frmManTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTiendaActualizar.resx">
+      <DependentUpon>frmManTiendaActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTiendaCrea.resx">
+      <DependentUpon>frmManTiendaCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoEvento.resx">
+      <DependentUpon>frmManTipoEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoEventoActualizar.resx">
+      <DependentUpon>frmManTipoEventoActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoEventoCrea.resx">
+      <DependentUpon>frmManTipoEventoCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoFiesta.resx">
+      <DependentUpon>frmManTipoFiesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoFiestaActualiza.resx">
+      <DependentUpon>frmManTipoFiestaActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoFiestaCrea.resx">
+      <DependentUpon>frmManTipoFiestaCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoPago.resx">
+      <DependentUpon>frmManTipoPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoPagoActualizar.resx">
+      <DependentUpon>frmManTipoPagoActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTipoPagoCrea.resx">
+      <DependentUpon>frmManTipoPagoCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTorta.resx">
+      <DependentUpon>frmManTorta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTortaActualiza.resx">
+      <DependentUpon>frmManTortaActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTortaCrea.resx">
+      <DependentUpon>frmManTortaCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTrabajador.resx">
+      <DependentUpon>frmManTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTrabajadorActualizar.resx">
+      <DependentUpon>frmManTrabajadorActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTrabajadorCrea.resx">
+      <DependentUpon>frmManTrabajadorCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManUsuario.resx">
+      <DependentUpon>frmManUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManUsuarioActualiza.resx">
+      <DependentUpon>frmManUsuarioActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManUsuarioCrea.resx">
+      <DependentUpon>frmManUsuarioCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManZona.resx">
+      <DependentUpon>frmManZona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManZonaActualiza.resx">
+      <DependentUpon>frmManZonaActualiza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManZonaCrea.resx">
+      <DependentUpon>frmManZonaCrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagoFiesta.resx">
+      <DependentUpon>frmPagoFiesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptDetalleFiestaTienda.resx">
+      <DependentUpon>frmRptDetalleFiestaTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptPagoDetalle.resx">
+      <DependentUpon>frmRptPagoDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptPagoMovilidad.resx">
+      <DependentUpon>frmRptPagoMovilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptTienda.resx">
+      <DependentUpon>frmRptTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptPago.resx">
+      <DependentUpon>frmRptPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptTorta.resx">
+      <DependentUpon>frmRptTorta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptAsignaciones.resx">
+      <DependentUpon>frmRptAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeleccionaTiendaImportacion.resx">
+      <DependentUpon>frmSeleccionaTiendaImportacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reportAsignacion.rdlc" />
+    <EmbeddedResource Include="reportPago.rdlc" />
+    <EmbeddedResource Include="reportPagoDetalle.rdlc" />
+    <EmbeddedResource Include="reportTienda.rdlc" />
+    <EmbeddedResource Include="reportTiendaDetalle.rdlc" />
+    <EmbeddedResource Include="reportTorta.rdlc" />
+    <EmbeddedResource Include="reportPagoMovilidad.rdlc" />
+    <None Include="app.config" />
+    <None Include="MadScienceGUI_ClaveTemporal.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MadScienceBE.AsignacionEntity.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.ReportePagoDetalle.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.ReportePagoMovilidad.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.ReportReservaTienda.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.ReportTiendaDetalle.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.ReservaEntity.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.TortaEntity.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MadScience.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KRIEGER - v7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MadScienceBE\MadScienceBE.csproj">
+      <Project>{10f85e2c-b943-4c77-b3d3-cdc7b255709e}</Project>
+      <Name>MadScienceBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MadScienceBL\MadScienceBL.csproj">
+      <Project>{a371c4f3-57e0-4f59-8edb-76151691bba1}</Project>
+      <Name>MadScienceBL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acreditaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asignacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lapiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ademas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="klab.ico" />
+    <None Include="Resources\cargando2.gif" />
+    <None Include="Resources\cargando.gif" />
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
