@@ -27,7 +27,8 @@ namespace MadScienceBL
 
         public bool ValidarDuplicidad(DisponibilidadEntity dispo)
         {
-            DisponibilidadEntity obj = servicioDisponibilidad.ListarTodos().Where(tx => tx.CodigoHorario == dispo.CodigoHorario && tx.CodigoTrabajador == dispo.CodigoTrabajador).ToList().FirstOrDefault();
+            //DisponibilidadEntity obj = servicioDisponibilidad.ListarTodos().Where(tx => tx.CodigoHorario == dispo.CodigoHorario && tx.CodigoTrabajador == dispo.CodigoTrabajador).ToList().FirstOrDefault();
+            DisponibilidadEntity obj = servicioDisponibilidad.Consultar(dispo);
             if (obj != null)
             {
                 return false;

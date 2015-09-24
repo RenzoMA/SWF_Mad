@@ -164,7 +164,7 @@ namespace MadScienceAdo.ACCESS
                 {
                     dtr.Read();
 
-                    DisponibilidadEntity objDisponiblidad = new DisponibilidadEntity();
+                    objDisponibilidad = new DisponibilidadEntity();
                     objDisponibilidad.CodigoHorario = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("id_horario")).ToString());
                     objDisponibilidad.CodigoTrabajador = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("id_trabajador")).ToString());
                     objDisponibilidad.FechaCreacion = Convert.ToDateTime((dtr.GetValue(dtr.GetOrdinal("fch_creacion")).ToString()));
