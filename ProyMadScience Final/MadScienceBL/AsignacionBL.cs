@@ -148,8 +148,8 @@ namespace MadScienceBL
         }
         public List<AsignacionEntity> ListarPorUsuario(int codigoTrabajador,DateTime fechaCelebra)
         {
-            List<AsignacionEntity> ListaAsignacion = servicioAsignacion.ListarTodos().Where(tx => tx.CodigoTrabajador == codigoTrabajador && tx.FechaReserva == fechaCelebra).ToList();
-            List<DetalleReservaEntity> ListaDetalle = servicioDetalleReserva.ListarTodos();
+            List<AsignacionEntity> ListaAsignacion = servicioAsignacion.ListarFecha(fechaCelebra,fechaCelebra).Where(tx => tx.CodigoTrabajador == codigoTrabajador).ToList();
+            List<DetalleReservaEntity> ListaDetalle = servicioDetalleReserva.ListarFecha(fechaCelebra, fechaCelebra);
 
             var query = from asignacion in ListaAsignacion
                         join detalle in ListaDetalle

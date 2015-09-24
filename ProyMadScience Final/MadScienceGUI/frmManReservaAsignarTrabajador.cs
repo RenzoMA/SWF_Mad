@@ -49,9 +49,10 @@ namespace MadScienceGUI
 
         private void frmManReservaAsignarTrabajador_Load(object sender, EventArgs e)
         {
+            dgvConsultaAsignaciones.AutoGenerateColumns = false;
             dgvAsignacion.AutoGenerateColumns = false;
             objReserva = servicioReserva.Consultar(codigoReserva);
-
+            lblHorario.Text = objReserva.HoraInicio + " - " + objReserva.HoraFin;
             cboTipoPago.DisplayMember = "nombre";
             cboTipoPago.ValueMember = "codigo";
             objDetalle = servicioDetalle.Consultar(codigoDetalle);
@@ -167,30 +168,7 @@ namespace MadScienceGUI
             
         }
 
-        private void dgvAsignacion_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.ColumnIndex == 0)
-            {
-                if (objReserva.FechaCelebracion >= DateTime.Now.Date)
-                {
-                    int codigo = Convert.ToInt16(dgvAsignacion.Rows[e.ColumnIndex].Cells["Codigo"].Value.ToString());
-                    if (servicioAsignacion.Eliminar(codigo))
-                    {
-                        MessageBox.Show("Eliminado", "Aviso");
-                        Enlazar();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Ocurrio un error", "Aviso");
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Ya no se permite realizar cambios", "Aviso");
-                }
 
-            }
-        }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
@@ -224,6 +202,40 @@ namespace MadScienceGUI
             else
             {
                 groupBoxMovilidad.Visible = false;
+
+            }
+        }
+
+        private void cboTrabajador_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            AsignacionBL servicioAsignacion = new AsignacionBL();
+            DateTime FechaCelebracion = objReserva.FechaCelebracion;
+            int CodigoTrabajador = Convert.ToInt16(cboTrabajador.SelectedValue.ToString());
+            dgvConsultaAsignaciones.DataSource = servicioAsignacion.ListarPorUsuario(CodigoTrabajador, FechaCelebracion);
+
+        }
+
+        private void dgvAsignacion_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 0)
+            {
+                if (objReserva.FechaCelebracion >= DateTime.Now.Date)
+                {
+                    int codigo = Convert.ToInt16(dgvAsignacion.Rows[e.ColumnIndex].Cells["Codigo"].Value.ToString());
+                    if (servicioAsignacion.Eliminar(codigo))
+                    {
+                        MessageBox.Show("Eliminado", "Aviso");
+                        Enlazar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Ocurrio un error", "Aviso");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Ya no se permite realizar cambios", "Aviso");
+                }
 
             }
         }

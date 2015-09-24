@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>HyMzBhyALdSHi2CUH4rAlo0aOiU=</dsig:DigestValue>
+        <dsig:DigestValue>TT0Aj4qFadfE8NaWcMDkgTC3Al4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Ct2aMO2tfB/ME/3UhttZcbgYvFk=</dsig:DigestValue>
+        <dsig:DigestValue>wb854mfFbOLd/6Jhw2DbdYYmYJY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,19 +86,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>p1cpqvy+sn5t+UlFoBZKXHnltLI=</dsig:DigestValue>
+        <dsig:DigestValue>6+y4Z1CmFgQ/6i/txVCQeGtGhyk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceGUI.exe" size="1956864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceGUI.exe" size="1958912">
       <assemblyIdentity name="MadScienceGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UJTfR5v7X1D0WwdXMTeyUPRck2k=</dsig:DigestValue>
+        <dsig:DigestValue>ymAgT82Imduok4hsig9QWEqkK5I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

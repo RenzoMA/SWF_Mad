@@ -86,19 +86,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>p1cpqvy+sn5t+UlFoBZKXHnltLI=</dsig:DigestValue>
+        <dsig:DigestValue>ScqsSKYDtP7RD3vALq2hIz+bwmc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceGUI.exe" size="1956864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceGUI.exe" size="1958912">
       <assemblyIdentity name="MadScienceGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UJTfR5v7X1D0WwdXMTeyUPRck2k=</dsig:DigestValue>
+        <dsig:DigestValue>J17v3zOMcHabLx80RV3kH2pikVs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

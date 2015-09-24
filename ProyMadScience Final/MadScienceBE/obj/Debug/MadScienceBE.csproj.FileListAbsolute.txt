@@ -36,4 +36,3 @@ D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.dll
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.pdb
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.dll
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.pdb
-D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.csprojResolveAssemblyReference.cache
