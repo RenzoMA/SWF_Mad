@@ -129,6 +129,11 @@ namespace MadScienceBL
             return direccion;
 
         }
+        public List<ReporteFacturacion> ListarFacturacion(DateTime fechaInicio, DateTime fechaFin)
+        {
+            DetalleReservaAccess objDetalle = new DetalleReservaAccess();
+            return objDetalle.ListarFacturacion(fechaInicio.Date, fechaFin.Date);
+        }
 
     }
 }

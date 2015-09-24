@@ -15,19 +15,54 @@ namespace MadScienceGUI
     {
         FiestaBL objFiestaBL = new FiestaBL();
         TipoFiestaBL objTipoFiesta = new TipoFiestaBL();
+        CebeEmpresaBL objCebeEmpresa = new CebeEmpresaBL();
         public frmManFiestaCrea()
         {
             InitializeComponent();
         }
 
+        private void ValidarNumero(object sender, KeyPressEventArgs e)
+        {
+
+            TextBox textBox = (TextBox)sender;
+            if (textBox.Text.Contains('.'))
+            {
+                if (!char.IsDigit(e.KeyChar))
+                {
+                    e.Handled = true;
+                }
+
+                if (e.KeyChar == '\b')
+                {
+                    e.Handled = false;
+                }
+            }
+            else
+            {
+                if (!char.IsDigit(e.KeyChar))
+                {
+                    e.Handled = true;
+                }
+
+                if (e.KeyChar == '.' || e.KeyChar == '\b')
+                {
+                    e.Handled = false;
+                }
+            }
+        }
+
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if (!txtNombre.Text.Trim().Equals(String.Empty))
+            if (!txtNombre.Text.Trim().Equals(String.Empty) && !txtCuenta.Text.Trim().Equals(String.Empty) && !txtPrecio.Text.Trim().Equals(String.Empty))
             {
                 FiestaEntity objFiesta = new FiestaEntity();
                 objFiesta.Nombre = txtNombre.Text.ToUpper().Trim();
                 objFiesta.Estado = "A";
                 objFiesta.CodigoTipoFiesta = Convert.ToInt32(cboTipo.SelectedValue.ToString());
+                objFiesta.Precio = Convert.ToDouble(txtPrecio.Text);
+                objFiesta.CodigoCebeEmpresa = Convert.ToInt16(cboCebeEmpresa.SelectedValue.ToString());
+                objFiesta.Cuenta = txtCuenta.Text.ToUpper().Trim();
+
                 if (objFiestaBL.ValidarNombreFiesta(objFiesta.Nombre,0))
                 {
                     if (objFiestaBL.Agregar(objFiesta))
@@ -61,9 +96,17 @@ namespace MadScienceGUI
 
         private void frmManFiestaCrea_Load(object sender, EventArgs e)
         {
+            cboCebeEmpresa.DataSource = objCebeEmpresa.ListarTodos();
+            cboCebeEmpresa.ValueMember = "codigo";
+            cboCebeEmpresa.DisplayMember = "nombre";
             cboTipo.DataSource = objTipoFiesta.ListarTodos();
             cboTipo.ValueMember = "Codigo";
             cboTipo.DisplayMember = "Nombre";
+        }
+
+        private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            ValidarNumero(sender, e);
         }
     }
 }

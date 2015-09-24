@@ -63,7 +63,13 @@ namespace MadScienceBE
             set { nombreTienda = value; }
         }
 
+        private string cebeTienda;
 
+        public string CebeTienda
+        {
+            get { return cebeTienda; }
+            set { cebeTienda = value; }
+        }
 
     }
 }

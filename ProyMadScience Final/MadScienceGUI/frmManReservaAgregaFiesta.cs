@@ -18,6 +18,8 @@ namespace MadScienceGUI
         DetalleReservaBL servicioDetalle = new DetalleReservaBL();
         ReservaEntity objReserva;
         ReservaBL servicioReserva = new ReservaBL();
+        TiendaBL servicioTienda = new TiendaBL();
+        TipoEventoBL servicioTipoEvento = new TipoEventoBL();
         public frmManReservaAgregaFiesta()
         {
             InitializeComponent();
@@ -61,6 +63,22 @@ namespace MadScienceGUI
                     objDetalle.CodigoFiesta = Convert.ToInt16(cboFiesta.SelectedValue.ToString());
                     objDetalle.FechaCreacion = DateTime.Now;
                     objDetalle.Usuario = Sesion.UsuarioActual.Login;
+                    if (objReserva.CodigoTienda != null)
+                    {
+                        TiendaEntity objTienda = servicioTienda.Consultar((int)objReserva.CodigoTienda);
+                        objDetalle.FactCliente = objTienda.CebeTienda;
+                        objDetalle.FactNomCli = objTienda.Nombre;
+                    }
+                    else
+                    {
+                        TipoEventoEntity objTipoEvento = servicioTipoEvento.Consultar(objReserva.CodigoTipoEvento);
+                        objDetalle.FactCliente = objTipoEvento.Nombre.ToUpper().Trim();
+                        objDetalle.FactNomCli = objReserva.NombreCliente;
+                    }
+                    FiestaEntity objFiesta = servicioFiesta.Consultar(Convert.ToInt16(cboFiesta.SelectedValue.ToString()));
+                    objDetalle.FactCuenta = objFiesta.Cuenta;
+                    objDetalle.FactPrecio = objFiesta.Precio;
+
 
                     if (servicioDetalle.Agregar(objDetalle))
                     {

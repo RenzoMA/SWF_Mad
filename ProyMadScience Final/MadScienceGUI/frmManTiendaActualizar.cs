@@ -39,6 +39,7 @@ namespace MadScienceGUI
             txtNombre.Text = objTienda.Nombre;
             txtDireccion.Text = objTienda.Direccion;
             cboZona.SelectedValue = objTienda.CodigoZona == null ? 0 : objTienda.CodigoZona;
+            txtCebe.Text = objTienda.CebeTienda;
             switch (objTienda.Estado)
             {
                 case "A": cboEstado.SelectedIndex = 0; break;
@@ -55,6 +56,7 @@ namespace MadScienceGUI
                 objTienda.Estado = cboEstado.Text == "Activo" ? "A" : "I";
                 objTienda.CodigoZona = Convert.ToInt16(cboZona.SelectedValue.ToString());
                 objTienda.Direccion = txtDireccion.Text.ToUpper().Trim();
+                objTienda.CebeTienda = txtCebe.Text.ToUpper().Trim();
                 if (objTiendaBL.Actualizar(objTienda))
                 {
                     MessageBox.Show("Registro actualizado correctamente", "Aviso");

@@ -71,6 +71,16 @@ namespace MadScienceAdo
             }
             return servicio;
         }
+        public ServicioGenerico<CebeEmpresaEntity> getCebeEmpresa(int tipo)
+        {
+            ServicioGenerico<CebeEmpresaEntity> servicio;
+            switch (tipo)
+            {
+                case Util.ACCESS: servicio = new CebeEmpresaAccess(); break;
+                default: servicio = null; break;
+            }
+            return servicio;
+        }
 
         public ServicioGenerico<SaborEntity> getSabor(int tipo)
         {

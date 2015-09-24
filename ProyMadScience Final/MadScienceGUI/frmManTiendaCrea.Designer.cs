@@ -37,6 +37,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCebe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -75,7 +77,7 @@
             // 
             // btnCrear
             // 
-            this.btnCrear.Location = new System.Drawing.Point(84, 94);
+            this.btnCrear.Location = new System.Drawing.Point(84, 117);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(75, 23);
             this.btnCrear.TabIndex = 3;
@@ -85,7 +87,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(214, 94);
+            this.button2.Location = new System.Drawing.Point(214, 117);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -109,12 +111,30 @@
             this.txtDireccion.Size = new System.Drawing.Size(205, 20);
             this.txtDireccion.TabIndex = 1;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 94);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 13);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Cod Fact.";
+            // 
+            // txtCebe
+            // 
+            this.txtCebe.Location = new System.Drawing.Point(84, 91);
+            this.txtCebe.Name = "txtCebe";
+            this.txtCebe.Size = new System.Drawing.Size(205, 20);
+            this.txtCebe.TabIndex = 19;
+            // 
             // frmManTiendaCrea
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(318, 132);
+            this.ClientSize = new System.Drawing.Size(318, 154);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtCebe);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.button2);
@@ -144,5 +164,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCebe;
     }
 }

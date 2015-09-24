@@ -206,6 +206,7 @@ namespace MadScienceGUI
                         objReserva.FechaNacimiento = dtpFechaNac.Value.Date;
                         objReserva.HoraFin = Convert.ToDouble(txtHoraFin.Text);
                         objReserva.HoraInicio = Convert.ToDouble(txtHoraInicio.Text);
+
                         try
                         {
                             objReserva.Invitados = Convert.ToInt16(txtNroInvitados.Text);
@@ -230,6 +231,7 @@ namespace MadScienceGUI
                         objReserva.FechaCrea = DateTime.Now;
 
 
+                        
 
                         int codigoReserva = servicioReserva.Insertar(objReserva);
                         if (codigoReserva != 0)
@@ -242,6 +244,24 @@ namespace MadScienceGUI
                                 deta.FechaCreacion = DateTime.Now;
                                 deta.Usuario = Sesion.UsuarioActual.Login;
                                 deta.CodigoReserva = codigoReserva;
+                                deta.FactCuenta = obj.Cuenta;
+                                deta.FactPrecio = obj.Precio;
+                                
+
+                                if (cboTienda.SelectedIndex != -1)
+                                {
+                                    TiendaEntity objTienda = servicioTienda.Consultar(Convert.ToInt16(cboTienda.SelectedValue.ToString()));
+                                    deta.FactCliente = objTienda.CebeTienda;
+                                    deta.FactNomCli = objTienda.Nombre;
+                                }
+                                else
+                                {
+                                    deta.FactCliente = cboTipo.Text.ToUpper().Trim();
+                                    deta.FactNomCli = txtCliente.Text.ToUpper().Trim();
+                                }
+
+
+
                                 lDetalle.Add(deta);
                             }
                             if (servicioDetalle.Agregar(lDetalle))

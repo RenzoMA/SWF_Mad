@@ -154,7 +154,8 @@ namespace MadScienceBL
                                             ((tx.HoraInicio > horaInicio && tx.HoraInicio < horaFin) ||
                                             (tx.HoraFin > horaInicio && tx.HoraFin < horaFin) ||
                                             (tx.HoraInicio < horaInicio && tx.HoraFin > horaFin)||
-                                            (tx.HoraInicio==horaInicio && tx.HoraFin==horaFin))).ToList();
+                                            (tx.HoraInicio==horaInicio && tx.HoraFin==horaFin) ||
+                                            (tx.HoraInicio==horaInicio && tx.HoraFin>horaFin))).ToList();
             //listaAsignacion -> todos los que no pueden por cruce.
 
             foreach (TrabajadorHorario trab in listaTrabajador)

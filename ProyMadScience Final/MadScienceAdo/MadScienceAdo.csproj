@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="ACCESS\Access.cs" />
     <Compile Include="ACCESS\AsignacionAccess.cs" />
+    <Compile Include="ACCESS\CebeEmpresaAccess.cs" />
     <Compile Include="ACCESS\DetalleReservaAccess.cs" />
     <Compile Include="ACCESS\DisponibilidadAccess.cs" />
     <Compile Include="ACCESS\EspecialidadAccess.cs" />

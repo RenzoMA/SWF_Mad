@@ -86,3 +86,14 @@ H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBL\bin\Debug\EntityFrame
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBL\obj\Debug\MadScienceBL.csprojResolveAssemblyReference.cache
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBL\obj\Debug\MadScienceBL.dll
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBL\obj\Debug\MadScienceBL.pdb
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\MadScienceBL.dll
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\MadScienceBL.pdb
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\MadScienceAdo.dll
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\MadScienceBE.dll
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\EntityFramework.dll
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\MadScienceAdo.pdb
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\MadScienceBE.pdb
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\bin\Debug\EntityFramework.xml
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\obj\Debug\MadScienceBL.csprojResolveAssemblyReference.cache
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\obj\Debug\MadScienceBL.dll
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBL\obj\Debug\MadScienceBL.pdb

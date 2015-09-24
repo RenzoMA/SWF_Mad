@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManFiesta));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.dgvFiestas = new System.Windows.Forms.DataGridView();
@@ -47,6 +47,8 @@
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NombreTipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fact_cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fact_precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFiestas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,19 +81,21 @@
             this.codigo,
             this.nombre,
             this.NombreTipo,
-            this.estado});
+            this.estado,
+            this.fact_cuenta,
+            this.fact_precio});
             this.dgvFiestas.Location = new System.Drawing.Point(15, 41);
             this.dgvFiestas.Name = "dgvFiestas";
             this.dgvFiestas.ReadOnly = true;
             this.dgvFiestas.RowHeadersVisible = false;
             this.dgvFiestas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFiestas.Size = new System.Drawing.Size(690, 435);
+            this.dgvFiestas.Size = new System.Drawing.Size(894, 435);
             this.dgvFiestas.TabIndex = 3;
             this.dgvFiestas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFiestas_CellContentClick);
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(630, 482);
+            this.btnActualizar.Location = new System.Drawing.Point(834, 482);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 4;
@@ -101,7 +105,7 @@
             // 
             // btnCrear
             // 
-            this.btnCrear.Location = new System.Drawing.Point(538, 482);
+            this.btnCrear.Location = new System.Drawing.Point(742, 482);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(75, 23);
             this.btnCrear.TabIndex = 5;
@@ -111,10 +115,10 @@
             // 
             // dataGridViewImageColumn1
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle11.NullValue")));
-            dataGridViewCellStyle11.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
-            this.dataGridViewImageColumn1.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle7.NullValue")));
+            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
+            this.dataGridViewImageColumn1.DefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewImageColumn1.HeaderText = "Pago";
             this.dataGridViewImageColumn1.Image = global::MadScienceGUI.Properties.Resources.money;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
@@ -123,10 +127,10 @@
             // 
             // dataGridViewImageColumn2
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle12.NullValue")));
-            dataGridViewCellStyle12.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
-            this.dataGridViewImageColumn2.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle8.NullValue")));
+            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
+            this.dataGridViewImageColumn2.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewImageColumn2.HeaderText = "Pago";
             this.dataGridViewImageColumn2.Image = global::MadScienceGUI.Properties.Resources.money;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
@@ -148,10 +152,10 @@
             // 
             // btnEvento
             // 
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle9.NullValue")));
-            dataGridViewCellStyle9.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
-            this.btnEvento.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle5.NullValue")));
+            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
+            this.btnEvento.DefaultCellStyle = dataGridViewCellStyle5;
             this.btnEvento.HeaderText = "Evento";
             this.btnEvento.Image = global::MadScienceGUI.Properties.Resources.asignacion;
             this.btnEvento.Name = "btnEvento";
@@ -160,10 +164,10 @@
             // 
             // btnPago
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle10.NullValue")));
-            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
-            this.btnPago.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle6.NullValue")));
+            dataGridViewCellStyle6.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
+            this.btnPago.DefaultCellStyle = dataGridViewCellStyle6;
             this.btnPago.HeaderText = "Pago";
             this.btnPago.Image = global::MadScienceGUI.Properties.Resources.money;
             this.btnPago.Name = "btnPago";
@@ -201,12 +205,26 @@
             this.estado.Name = "estado";
             this.estado.ReadOnly = true;
             // 
+            // fact_cuenta
+            // 
+            this.fact_cuenta.DataPropertyName = "cuenta";
+            this.fact_cuenta.HeaderText = "Fact. Cuenta";
+            this.fact_cuenta.Name = "fact_cuenta";
+            this.fact_cuenta.ReadOnly = true;
+            // 
+            // fact_precio
+            // 
+            this.fact_precio.DataPropertyName = "precio";
+            this.fact_precio.HeaderText = "Fact Costo";
+            this.fact_precio.Name = "fact_precio";
+            this.fact_precio.ReadOnly = true;
+            // 
             // frmManFiesta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(746, 513);
+            this.ClientSize = new System.Drawing.Size(948, 513);
             this.Controls.Add(this.btnCrear);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dgvFiestas);
@@ -241,5 +259,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreTipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn estado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fact_cuenta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fact_precio;
     }
 }

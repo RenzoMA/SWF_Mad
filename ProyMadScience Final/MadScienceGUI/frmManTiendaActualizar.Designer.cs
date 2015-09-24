@@ -39,11 +39,13 @@
             this.cboEstado = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCebe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(216, 121);
+            this.button2.Location = new System.Drawing.Point(216, 153);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 12;
@@ -53,7 +55,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(86, 121);
+            this.btnActualizar.Location = new System.Drawing.Point(86, 153);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 11;
@@ -132,12 +134,30 @@
             this.txtDireccion.Size = new System.Drawing.Size(205, 20);
             this.txtDireccion.TabIndex = 15;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 124);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Cod Fact.";
+            // 
+            // txtCebe
+            // 
+            this.txtCebe.Location = new System.Drawing.Point(86, 121);
+            this.txtCebe.Name = "txtCebe";
+            this.txtCebe.Size = new System.Drawing.Size(205, 20);
+            this.txtCebe.TabIndex = 17;
+            // 
             // frmManTiendaActualizar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(307, 160);
+            this.ClientSize = new System.Drawing.Size(307, 188);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtCebe);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.label3);
@@ -171,6 +191,8 @@
         private System.Windows.Forms.ComboBox cboEstado;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCebe;
 
     }
 }

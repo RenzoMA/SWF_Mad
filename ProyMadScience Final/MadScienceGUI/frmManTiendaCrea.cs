@@ -38,6 +38,7 @@ namespace MadScienceGUI
                 objTienda.CodigoZona = Convert.ToInt16(cboZona.SelectedValue.ToString());
                 objTienda.Direccion = txtDireccion.Text.ToUpper().Trim();
                 objTienda.Estado = "A";
+                objTienda.CebeTienda = txtCebe.Text.ToUpper().Trim();
                 if (objTiendaBL.Agregar(objTienda))
                 {
                     MessageBox.Show("Se realizo el proceso correctamente", "Aviso");

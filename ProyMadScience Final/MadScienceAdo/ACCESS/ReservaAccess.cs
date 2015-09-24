@@ -229,7 +229,7 @@ namespace MadScienceAdo.ACCESS
             if (t.CodigoTienda == null)
             {
                 sql = String.Format("insert into tb_reserva (id_tipo_evento,id_usuario,direccion,nombreNiño,fechaNacimiento,telefono,celular,nombreCliente,fechaCelebracion,horaInicio,horaFin,modeloTorta,saborTorta,obsTorta2,invitados,obsGeneral,flg_estado,usr_crea,fch_creacion,flg_doble) " +
-                                            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}','{16}','{17}','{18}')",
+                                            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}','{16}','{17}','{18}','{19}')",
                                             t.CodigoTipoEvento, t.CodigoUsuario, t.Direccion, t.NombreNiño, t.FechaNacimiento, t.Telefono, t.Celular, t.NombreCliente, t.FechaCelebracion, t.HoraInicio, t.HoraFin, t.ModeloTorta, t.SaborTorta, t.ObsTorta, t.Invitados, t.ObsGeneral, t.Estado, t.UsuarioCrea, DateTime.Now,t.FiestaDoble);
             }
             else

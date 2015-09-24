@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManTienda));
             this.dgvTienda = new System.Windows.Forms.DataGridView();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cebe_tienda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTienda)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,14 +50,35 @@
             this.Codigo,
             this.Nombre,
             this.Zona,
+            this.cebe_tienda,
             this.Estado});
             this.dgvTienda.Location = new System.Drawing.Point(12, 12);
             this.dgvTienda.Name = "dgvTienda";
             this.dgvTienda.ReadOnly = true;
             this.dgvTienda.RowHeadersVisible = false;
             this.dgvTienda.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvTienda.Size = new System.Drawing.Size(606, 497);
+            this.dgvTienda.Size = new System.Drawing.Size(694, 497);
             this.dgvTienda.TabIndex = 0;
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(631, 515);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizar.TabIndex = 1;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(535, 515);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
+            this.btnNuevo.TabIndex = 2;
+            this.btnNuevo.Text = "Nueva Tienda";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // Codigo
             // 
@@ -79,6 +101,13 @@
             this.Zona.Name = "Zona";
             this.Zona.ReadOnly = true;
             // 
+            // cebe_tienda
+            // 
+            this.cebe_tienda.DataPropertyName = "cebeTienda";
+            this.cebe_tienda.HeaderText = "Cod Fact.";
+            this.cebe_tienda.Name = "cebe_tienda";
+            this.cebe_tienda.ReadOnly = true;
+            // 
             // Estado
             // 
             this.Estado.DataPropertyName = "Estado";
@@ -86,32 +115,12 @@
             this.Estado.Name = "Estado";
             this.Estado.ReadOnly = true;
             // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(543, 515);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
-            this.btnActualizar.TabIndex = 1;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(447, 515);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
-            this.btnNuevo.TabIndex = 2;
-            this.btnNuevo.Text = "Nueva Tienda";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
             // frmManTienda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(630, 550);
+            this.ClientSize = new System.Drawing.Size(720, 550);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dgvTienda);
@@ -134,6 +143,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Zona;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cebe_tienda;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
     }
 }

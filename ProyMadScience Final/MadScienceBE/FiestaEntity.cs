@@ -46,5 +46,31 @@ namespace MadScienceBE
         }
 
 
+        private string cuenta;
+
+        public string Cuenta
+        {
+            get { return cuenta; }
+            set { cuenta = value; }
+        }
+
+
+        private double precio;
+
+        public double Precio
+        {
+            get { return precio; }
+            set { precio = value; }
+        }
+
+
+        private int codigoCebeEmpresa;
+
+        public int CodigoCebeEmpresa
+        {
+            get { return codigoCebeEmpresa; }
+            set { codigoCebeEmpresa = value; }
+        }
+
     }
 }

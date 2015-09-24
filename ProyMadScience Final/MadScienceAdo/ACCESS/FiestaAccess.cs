@@ -21,8 +21,8 @@ namespace MadScienceAdo.ACCESS
             cnx.ConnectionString = MiConex.GetCnx();
             cmd.Connection = cnx;
             cmd.CommandType = CommandType.Text;
-            String sql = String.Format("insert into tb_fiesta (nombre,flg_estado,id_tipo_fiesta) " +
-                                        "values('{0}','{1}','{2}')",
+            String sql = String.Format("insert into tb_fiesta (nombre,flg_estado,id_tipo_fiesta,cuenta,precio,cebe_empresa) " +
+                                        "values('{0}','{1}','{2}','{3}','{4}','{5}')",
                                         t.Nombre, t.Estado, t.CodigoTipoFiesta);
 
             cmd.CommandText = sql;
@@ -51,9 +51,9 @@ namespace MadScienceAdo.ACCESS
             cnx.ConnectionString = MiConex.GetCnx();
             cmd.Connection = cnx;
             cmd.CommandType = CommandType.Text;
-            String sql = String.Format("update tb_fiesta set nombre = '{0}', flg_estado = '{1}', id_tipo_fiesta ='{2}'" +
-                                        "where id_fiesta = {3}",
-                                        t.Nombre, t.Estado,t.CodigoTipoFiesta, t.Codigo);
+            String sql = String.Format("update tb_fiesta set nombre = '{0}', flg_estado = '{1}', id_tipo_fiesta ='{2}' ,cuenta='{3}',precio='{4}',cebe_empresa='{5}'" +
+                                        "where id_fiesta = {6}",
+                                        t.Nombre, t.Estado, t.CodigoTipoFiesta, t.Cuenta, t.Precio, t.CodigoCebeEmpresa, t.Codigo);
             cmd.CommandText = sql;
             try
             {
@@ -100,6 +100,9 @@ namespace MadScienceAdo.ACCESS
                         objFiesta.Nombre = dtr.GetValue(dtr.GetOrdinal("nombre")).ToString();
                         objFiesta.Estado = dtr.GetValue(dtr.GetOrdinal("flg_estado")).ToString();
                         objFiesta.CodigoTipoFiesta = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("id_tipo_fiesta")).ToString());
+                        objFiesta.Cuenta = dtr.GetValue(dtr.GetOrdinal("cuenta")).ToString();
+                        objFiesta.Precio = Convert.ToDouble(dtr.GetValue(dtr.GetOrdinal("precio")).ToString());
+                        objFiesta.CodigoCebeEmpresa = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("cebe_empresa")).ToString());
                         listaFiesta.Add(objFiesta);
                     }
                     dtr.Close();
@@ -140,6 +143,9 @@ namespace MadScienceAdo.ACCESS
                     objFiesta.Nombre = dtr.GetValue(dtr.GetOrdinal("nombre")).ToString();
                     objFiesta.Estado = dtr.GetValue(dtr.GetOrdinal("flg_estado")).ToString();
                     objFiesta.CodigoTipoFiesta = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("id_tipo_fiesta")).ToString());
+                    objFiesta.Cuenta = dtr.GetValue(dtr.GetOrdinal("cuenta")).ToString();
+                    objFiesta.Precio = Convert.ToDouble(dtr.GetValue(dtr.GetOrdinal("precio")).ToString());
+                    objFiesta.CodigoCebeEmpresa = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("cebe_empresa")).ToString());
 
                     dtr.Close();
                 }

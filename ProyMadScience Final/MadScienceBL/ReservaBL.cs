@@ -320,6 +320,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -338,6 +342,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -356,6 +364,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -374,6 +386,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -392,6 +408,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -410,6 +430,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -428,6 +452,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -445,6 +473,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -462,6 +494,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else
@@ -479,6 +515,10 @@ namespace MadScienceBL
                         objDetalle.CodigoFiesta = objFiesta.Codigo;
                         objDetalle.Usuario = usuario.Login;
                         objDetalle.FechaCreacion = DateTime.Now;
+                        objDetalle.FactCliente = tienda.CebeTienda;
+                        objDetalle.FactCuenta = objFiesta.Cuenta;
+                        objDetalle.FactPrecio = objFiesta.Precio;
+                        objDetalle.FactNomCli = tienda.Nombre;
                         listaDetalle.Add(objDetalle);
                     }
                     else

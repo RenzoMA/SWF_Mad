@@ -382,6 +382,12 @@
     <Compile Include="frmRptDetalleFiestaTienda.Designer.cs">
       <DependentUpon>frmRptDetalleFiestaTienda.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRptFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptFacturacion.Designer.cs">
+      <DependentUpon>frmRptFacturacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRptPagoDetalle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -574,6 +580,9 @@
     <EmbeddedResource Include="frmRptDetalleFiestaTienda.resx">
       <DependentUpon>frmRptDetalleFiestaTienda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRptFacturacion.resx">
+      <DependentUpon>frmRptFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRptPagoDetalle.resx">
       <DependentUpon>frmRptPagoDetalle.cs</DependentUpon>
     </EmbeddedResource>
@@ -606,6 +615,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="reportAsignacion.rdlc" />
+    <EmbeddedResource Include="reportFacturacion.rdlc" />
     <EmbeddedResource Include="reportPago.rdlc" />
     <EmbeddedResource Include="reportPagoDetalle.rdlc" />
     <EmbeddedResource Include="reportTienda.rdlc" />
@@ -616,6 +626,7 @@
     <None Include="MadScienceGUI_ClaveTemporal.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\MadScienceBE.AsignacionEntity.datasource" />
+    <None Include="Properties\DataSources\MadScienceBE.ReporteFacturacion.datasource" />
     <None Include="Properties\DataSources\MadScienceBE.ReportePagoDetalle.datasource" />
     <None Include="Properties\DataSources\MadScienceBE.ReportePagoMovilidad.datasource" />
     <None Include="Properties\DataSources\MadScienceBE.ReportReservaTienda.datasource" />

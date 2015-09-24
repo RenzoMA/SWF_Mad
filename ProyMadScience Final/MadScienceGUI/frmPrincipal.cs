@@ -225,5 +225,12 @@ namespace MadScienceGUI
             frm.Show();
         }
 
+        private void reporteFacturaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRptFacturacion frm = new frmRptFacturacion();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
     }
 }

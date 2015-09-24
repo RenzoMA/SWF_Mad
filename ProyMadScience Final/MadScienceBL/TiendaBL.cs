@@ -39,6 +39,7 @@ namespace MadScienceBL
                 objTienda.Estado = resultado.TiendaEntity.Estado == "A" ? "Activo" : "Inactivo";
                 objTienda.Direccion = resultado.TiendaEntity.Direccion;
                 objTienda.CodigoZona = resultado.TiendaEntity.CodigoZona;
+                objTienda.CebeTienda = resultado.TiendaEntity.CebeTienda;
                 listaTienda.Add(objTienda);
             }
 

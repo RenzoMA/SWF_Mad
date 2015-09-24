@@ -64,7 +64,35 @@ namespace MadScienceBE
             set { cantidadAsignados = value; }
         }
 
+        private string factCuenta;
 
+        public string FactCuenta
+        {
+            get { return factCuenta; }
+            set { factCuenta = value; }
+        }
+        private string factCliente;
+
+        public string FactCliente
+        {
+            get { return factCliente; }
+            set { factCliente = value; }
+        }
+        private double factPrecio;
+
+        public double FactPrecio
+        {
+            get { return factPrecio; }
+            set { factPrecio = value; }
+        }
+
+        private string factNomCli;
+
+        public string FactNomCli
+        {
+            get { return factNomCli; }
+            set { factNomCli = value; }
+        }
 
     }
 }

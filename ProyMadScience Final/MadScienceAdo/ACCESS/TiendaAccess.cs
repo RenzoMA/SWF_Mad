@@ -24,14 +24,14 @@ namespace MadScienceAdo.ACCESS
             String sql ;
             if (t.CodigoZona == null)
             {
-                sql = String.Format("insert into tb_tienda(nombre,flg_estado,direccion) " +
-                                            "values('{0}','{1}','{2}')",
+                sql = String.Format("insert into tb_tienda(nombre,flg_estado,direccion,cebe_tienda) " +
+                                            "values('{0}','{1}','{2}','{3}')",
                                              t.Nombre, t.Estado, t.Direccion);
             }
             else
             {
-                sql = String.Format("insert into tb_tienda(id_zona,nombre,flg_estado,direccion) " +
-                                                           "values('{0}','{1}','{2}','{3}')",
+                sql = String.Format("insert into tb_tienda(id_zona,nombre,flg_estado,direccion,cebe_tienda) " +
+                                                           "values('{0}','{1}','{2}','{3}','{4}')",
                                                            t.CodigoZona, t.Nombre, t.Estado, t.Direccion);
             }
             
@@ -64,14 +64,14 @@ namespace MadScienceAdo.ACCESS
             String sql = "";
             if (t.CodigoZona == null)
             {
-                sql = String.Format("update tb_tienda set id_zona = null, nombre = '{0}', flg_estado = '{1}', direccion = '{2}' where id_tienda = {3}",
-                                             t.Nombre, t.Estado, t.Direccion, t.Codigo);
+                sql = String.Format("update tb_tienda set id_zona = null, nombre = '{0}', flg_estado = '{1}', direccion = '{2}',cebe_tienda = '{3}' where id_tienda = {4}",
+                                             t.Nombre, t.Estado, t.Direccion,t.CebeTienda, t.Codigo);
             }
             else
             {
                 
-                sql = String.Format("update tb_tienda set id_zona = '{0}', nombre = '{1}', flg_estado = '{2}', direccion = '{3}' where id_tienda = {4}",
-                                                           t.CodigoZona, t.Nombre, t.Estado, t.Direccion, t.Codigo);
+                sql = String.Format("update tb_tienda set id_zona = '{0}', nombre = '{1}', flg_estado = '{2}', direccion = '{3}',cebe_tienda = '{4}' where id_tienda = {5}",
+                                                           t.CodigoZona, t.Nombre, t.Estado, t.Direccion,t.CebeTienda, t.Codigo);
             }
 
             cmd.CommandText = sql;
@@ -129,6 +129,7 @@ namespace MadScienceAdo.ACCESS
                         objTienda.Nombre = dtr.GetValue(dtr.GetOrdinal("nombre")).ToString();
                         objTienda.Direccion = dtr.GetValue(dtr.GetOrdinal("direccion")).ToString();
                         objTienda.Estado = dtr.GetValue(dtr.GetOrdinal("flg_estado")).ToString();
+                        objTienda.CebeTienda = dtr.GetValue(dtr.GetOrdinal("cebe_tienda")).ToString();
                         listaTienda.Add(objTienda);
                     }
                     dtr.Close();
@@ -179,6 +180,7 @@ namespace MadScienceAdo.ACCESS
                     objTienda.Nombre = dtr.GetValue(dtr.GetOrdinal("nombre")).ToString();
                     objTienda.Estado = dtr.GetValue(dtr.GetOrdinal("flg_estado")).ToString();
                     objTienda.Direccion = dtr.GetValue(dtr.GetOrdinal("direccion")).ToString();
+                    objTienda.CebeTienda = dtr.GetValue(dtr.GetOrdinal("cebe_tienda")).ToString();
                     dtr.Close();
                 }
                 return objTienda;

@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsignacionBL.cs" />
+    <Compile Include="CebeEmpresaBL.cs" />
     <Compile Include="DetalleReservaBL.cs" />
     <Compile Include="DisponibilidadBL.cs" />
     <Compile Include="EspecialidadBL.cs" />

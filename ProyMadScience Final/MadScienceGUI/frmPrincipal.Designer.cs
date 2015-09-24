@@ -55,9 +55,10 @@
             this.reporteTiendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportePagoDetalleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteFiestasPorTiendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportePagosMovilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.reportePagosMovilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteFacturaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -226,7 +227,8 @@
             this.reporteTiendaToolStripMenuItem,
             this.reportePagoDetalleToolStripMenuItem,
             this.reporteFiestasPorTiendaToolStripMenuItem,
-            this.reportePagosMovilidadToolStripMenuItem});
+            this.reportePagosMovilidadToolStripMenuItem,
+            this.reporteFacturaciónToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -273,6 +275,13 @@
             this.reporteFiestasPorTiendaToolStripMenuItem.Text = "6. Reporte fiestas por tienda";
             this.reporteFiestasPorTiendaToolStripMenuItem.Click += new System.EventHandler(this.reporteFiestasPorTiendaToolStripMenuItem_Click);
             // 
+            // reportePagosMovilidadToolStripMenuItem
+            // 
+            this.reportePagosMovilidadToolStripMenuItem.Name = "reportePagosMovilidadToolStripMenuItem";
+            this.reportePagosMovilidadToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.reportePagosMovilidadToolStripMenuItem.Text = "7. Reporte pagos - movilidad";
+            this.reportePagosMovilidadToolStripMenuItem.Click += new System.EventHandler(this.reportePagosMovilidadToolStripMenuItem_Click);
+            // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -291,12 +300,12 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
-            // reportePagosMovilidadToolStripMenuItem
+            // reporteFacturaciónToolStripMenuItem
             // 
-            this.reportePagosMovilidadToolStripMenuItem.Name = "reportePagosMovilidadToolStripMenuItem";
-            this.reportePagosMovilidadToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.reportePagosMovilidadToolStripMenuItem.Text = "7. Reporte pagos - movilidad";
-            this.reportePagosMovilidadToolStripMenuItem.Click += new System.EventHandler(this.reportePagosMovilidadToolStripMenuItem_Click);
+            this.reporteFacturaciónToolStripMenuItem.Name = "reporteFacturaciónToolStripMenuItem";
+            this.reporteFacturaciónToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.reporteFacturaciónToolStripMenuItem.Text = "8. Reporte facturación";
+            this.reporteFacturaciónToolStripMenuItem.Click += new System.EventHandler(this.reporteFacturaciónToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -357,5 +366,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripMenuItem movilidadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportePagosMovilidadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteFacturaciónToolStripMenuItem;
     }
 }
