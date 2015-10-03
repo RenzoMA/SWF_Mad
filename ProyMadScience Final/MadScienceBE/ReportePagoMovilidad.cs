@@ -72,6 +72,15 @@ namespace MadScienceBE
             set { montoTotal = value; }
         }
 
+        private string codigoFacturacion;
+
+        public string CodigoFacturacion
+        {
+            get { return codigoFacturacion; }
+            set { codigoFacturacion = value; }
+        }
+
+
 
     }
 }

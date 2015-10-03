@@ -21,9 +21,9 @@ namespace MadScienceAdo.ACCESS
             cnx.ConnectionString = MiConex.GetCnx();
             cmd.Connection = cnx;
             cmd.CommandType = CommandType.Text;
-            String sql = String.Format("insert into tb_trabajador (nombre,flg_estado,id_zona) " +
-                                        "values('{0}','{1}','{2}')",
-                                        t.Nombre, t.Estado,t.CodigoZona);
+            String sql = String.Format("insert into tb_trabajador (nombre,flg_estado,id_zona,cod_planilla) " +
+                                        "values('{0}','{1}','{2}','{3}')",
+                                        t.Nombre, t.Estado,t.CodigoZona,t.CodigoPlanilla);
 
             cmd.CommandText = sql;
             try
@@ -51,9 +51,9 @@ namespace MadScienceAdo.ACCESS
             cnx.ConnectionString = MiConex.GetCnx();
             cmd.Connection = cnx;
             cmd.CommandType = CommandType.Text;
-            String sql = String.Format("update tb_trabajador set nombre = '{0}', flg_estado = '{1}', id_zona = '{2}'" +
-                                        "where id_trabajador = {3}",
-                                        t.Nombre, t.Estado, t.CodigoZona,t.Codigo);
+            String sql = String.Format("update tb_trabajador set nombre = '{0}', flg_estado = '{1}', id_zona = '{2}',cod_planilla='{3}'" +
+                                        "where id_trabajador = {4}",
+                                        t.Nombre, t.Estado, t.CodigoZona,t.CodigoPlanilla,t.Codigo);
             cmd.CommandText = sql;
             try
             {
@@ -100,6 +100,7 @@ namespace MadScienceAdo.ACCESS
                         objTrabajador.Nombre = dtr.GetValue(dtr.GetOrdinal("nombre")).ToString();
                         objTrabajador.Estado = dtr.GetValue(dtr.GetOrdinal("flg_estado")).ToString();
                         objTrabajador.CodigoZona = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("id_zona")).ToString());
+                        objTrabajador.CodigoPlanilla = dtr.GetValue(dtr.GetOrdinal("cod_planilla")).ToString();
                         listaTrabajador.Add(objTrabajador);
                     }
                     dtr.Close();
@@ -140,6 +141,7 @@ namespace MadScienceAdo.ACCESS
                     objTrabajador.Nombre = dtr.GetValue(dtr.GetOrdinal("nombre")).ToString();
                     objTrabajador.Estado = dtr.GetValue(dtr.GetOrdinal("flg_estado")).ToString();
                     objTrabajador.CodigoZona = Convert.ToInt16(dtr.GetValue(dtr.GetOrdinal("id_zona")).ToString());
+                    objTrabajador.CodigoPlanilla = dtr.GetValue(dtr.GetOrdinal("cod_planilla")).ToString();
                     dtr.Close();
                 }
                 return objTrabajador;

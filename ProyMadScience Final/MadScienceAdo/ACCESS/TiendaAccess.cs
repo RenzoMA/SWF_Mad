@@ -26,13 +26,13 @@ namespace MadScienceAdo.ACCESS
             {
                 sql = String.Format("insert into tb_tienda(nombre,flg_estado,direccion,cebe_tienda) " +
                                             "values('{0}','{1}','{2}','{3}')",
-                                             t.Nombre, t.Estado, t.Direccion);
+                                             t.Nombre, t.Estado, t.Direccion,t.CebeTienda);
             }
             else
             {
                 sql = String.Format("insert into tb_tienda(id_zona,nombre,flg_estado,direccion,cebe_tienda) " +
                                                            "values('{0}','{1}','{2}','{3}','{4}')",
-                                                           t.CodigoZona, t.Nombre, t.Estado, t.Direccion);
+                                                           t.CodigoZona, t.Nombre, t.Estado, t.Direccion,t.CebeTienda);
             }
             
             cmd.CommandText = sql;

@@ -73,6 +73,7 @@
             this.btnAgregarFiesta = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.cboFiesta = new System.Windows.Forms.ComboBox();
+            this.cbUltimaHora = new System.Windows.Forms.CheckBox();
             this.gbFiestas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFiesta)).BeginInit();
             this.SuspendLayout();
@@ -485,12 +486,23 @@
             this.cboFiesta.Size = new System.Drawing.Size(151, 21);
             this.cboFiesta.TabIndex = 0;
             // 
+            // cbUltimaHora
+            // 
+            this.cbUltimaHora.AutoSize = true;
+            this.cbUltimaHora.Location = new System.Drawing.Point(323, 473);
+            this.cbUltimaHora.Name = "cbUltimaHora";
+            this.cbUltimaHora.Size = new System.Drawing.Size(81, 17);
+            this.cbUltimaHora.TabIndex = 35;
+            this.cbUltimaHora.Text = "Ultima Hora";
+            this.cbUltimaHora.UseVisualStyleBackColor = true;
+            // 
             // frmManReservaCrea
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(718, 619);
+            this.Controls.Add(this.cbUltimaHora);
             this.Controls.Add(this.gbFiestas);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGrabar);
@@ -586,5 +598,6 @@
         private System.Windows.Forms.DataGridViewImageColumn Eliminar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fiesta;
+        private System.Windows.Forms.CheckBox cbUltimaHora;
     }
 }

@@ -52,6 +52,7 @@ namespace MadScienceGUI
                 objTrabajador.Nombre = txtNombre.Text.ToUpper().Trim();
                 objTrabajador.Estado = cboEstado.SelectedIndex == 0 ? "A" : "I";
                 objTrabajador.CodigoZona = Convert.ToInt16(cboZona.SelectedValue.ToString());
+                objTrabajador.CodigoPlanilla = txtCodigoPlanilla.Text.ToUpper().Trim();
                 if (objTrabajadorBL.Actualizar(objTrabajador))
                 {
                     MessageBox.Show("Registro actualizado correctamente", "Aviso");

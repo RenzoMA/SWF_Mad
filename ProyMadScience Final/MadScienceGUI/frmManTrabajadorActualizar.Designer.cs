@@ -37,11 +37,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cboZona = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCodigoPlanilla = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(197, 92);
+            this.btnCancelar.Location = new System.Drawing.Point(197, 124);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 11;
@@ -51,7 +53,7 @@
             // 
             // btnCrear
             // 
-            this.btnCrear.Location = new System.Drawing.Point(103, 92);
+            this.btnCrear.Location = new System.Drawing.Point(103, 124);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(75, 23);
             this.btnCrear.TabIndex = 10;
@@ -115,12 +117,31 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "Zona:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(8, 95);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Codigo Planilla:";
+            // 
+            // txtCodigoPlanilla
+            // 
+            this.txtCodigoPlanilla.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCodigoPlanilla.Location = new System.Drawing.Point(103, 92);
+            this.txtCodigoPlanilla.Name = "txtCodigoPlanilla";
+            this.txtCodigoPlanilla.Size = new System.Drawing.Size(169, 20);
+            this.txtCodigoPlanilla.TabIndex = 20;
+            // 
             // frmManTrabajadorActualizar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(448, 129);
+            this.ClientSize = new System.Drawing.Size(440, 160);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtCodigoPlanilla);
             this.Controls.Add(this.cboZona);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -150,6 +171,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cboZona;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCodigoPlanilla;
 
     }
 }

@@ -88,3 +88,13 @@ D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceAdo\bin\Debug\EntityFramework.
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.dll
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.pdb
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceAdo.dll.config
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceAdo.dll
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceAdo.pdb
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\EntityFramework.dll
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceBE.dll
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\MadScienceBE.pdb
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\bin\Debug\EntityFramework.xml
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.csprojResolveAssemblyReference.cache
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.dll
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceAdo\obj\Debug\MadScienceAdo.pdb

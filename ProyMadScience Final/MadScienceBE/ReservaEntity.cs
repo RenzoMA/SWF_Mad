@@ -190,7 +190,13 @@ namespace MadScienceBE
             set { fiestaDoble = value; }
         }
 
-        
+        private string ultimaHora;
+
+        public string UltimaHora
+        {
+            get { return ultimaHora; }
+            set { ultimaHora = value; }
+        }
 
     }
 }

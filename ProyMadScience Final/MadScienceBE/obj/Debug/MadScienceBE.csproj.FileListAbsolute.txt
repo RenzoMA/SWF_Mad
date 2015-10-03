@@ -32,7 +32,13 @@ H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceB
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\bin\Debug\MadScienceBE.pdb
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.dll
 H:\FinalMS\18-09\ProyMadScience Final - Barra\MadScienceBE\obj\Debug\MadScienceBE.pdb
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.dll
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.pdb
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.csprojResolveAssemblyReference.cache
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.dll
+D:\SWF_Mad-master\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.pdb
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.dll
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\bin\Debug\MadScienceBE.pdb
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.dll
 D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.pdb
+D:\Krieger\SWF_MAD\ProyMadScience Final\MadScienceBE\obj\Debug\MadScienceBE.csprojResolveAssemblyReference.cache

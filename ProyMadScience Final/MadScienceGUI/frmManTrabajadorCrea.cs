@@ -22,13 +22,14 @@ namespace MadScienceGUI
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            if (ValidarCampoVacio(txtNombre.Text.Trim(),txtApePat.Text.Trim(),txtApeMat.Text.Trim()))
+            if (ValidarCampoVacio(txtNombre.Text.Trim(), txtApePat.Text.Trim(), txtApeMat.Text.Trim(), txtCodigoPlanilla.Text.ToUpper().Trim()))
             {
                 String nombre = txtNombre.Text.ToUpper().Trim()+" "+txtApePat.Text.ToUpper().Trim()+" "+txtApeMat.Text.ToUpper().Trim();
                 TrabajadorEntity objTrabajador = new TrabajadorEntity();
                 objTrabajador.Nombre = nombre;
                 objTrabajador.Estado = "A";
                 objTrabajador.CodigoZona = Convert.ToInt16(cboZona.SelectedValue.ToString());
+                objTrabajador.CodigoPlanilla = txtCodigoPlanilla.Text.ToUpper().Trim();
                 if (objTrabajadorBL.ValidarNombre(objTrabajador.Nombre))
                 {
                     if (objTrabajadorBL.Agregar(objTrabajador))

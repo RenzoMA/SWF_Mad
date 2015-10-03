@@ -401,7 +401,7 @@ namespace MadScienceAdo.ACCESS
                 cmd.CommandType = CommandType.Text;
 
                 string sql = "select " +
-                            " tra.nombre," +
+                            " tra.nombre,tra.cod_planilla," +
                             " tfi.nombre as [TipoFiesta]," +
                             " count(tfi.nombre) as [CantidadTipoFiesta]," +
                             " tpago.nombre as [TipoPago]," +
@@ -427,7 +427,7 @@ namespace MadScienceAdo.ACCESS
                             " left join tb_tipo_movilidad tmovi" +
                             " on tmovi.id_tipo_movilidad = asi.id_tipo_movilidad" +
                             " where re.fechaCelebracion between @inicio and @fin" +
-                            " group by tfi.nombre,tra.nombre,tpago.nombre,tmovi.des_nombre" +
+                            " group by tfi.nombre,tra.nombre,tpago.nombre,tmovi.des_nombre,tra.cod_planilla" +
                             " order by 1,2";
 
                 cmd.CommandText = sql;
@@ -455,6 +455,7 @@ namespace MadScienceAdo.ACCESS
                         objReporte.TipoMovilidad = dtr.GetValue(dtr.GetOrdinal("Movilidad")).ToString();
                         objReporte.MontoMovilidad = Convert.ToDouble(dtr.GetValue(dtr.GetOrdinal("PagoMovilidad")).ToString());
                         objReporte.MontoTotal = Convert.ToDouble(dtr.GetValue(dtr.GetOrdinal("Total")).ToString());
+                        objReporte.CodigoFacturacion = dtr.GetValue(dtr.GetOrdinal("cod_planilla")).ToString();
 
                         listaPagoMovilidad.Add(objReporte);
                     }

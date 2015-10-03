@@ -39,6 +39,8 @@
             this.txtApeMat = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cboZona = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCodigoPlanilla = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -60,7 +62,7 @@
             // 
             // btnCrear
             // 
-            this.btnCrear.Location = new System.Drawing.Point(107, 117);
+            this.btnCrear.Location = new System.Drawing.Point(107, 143);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(75, 23);
             this.btnCrear.TabIndex = 3;
@@ -70,7 +72,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(201, 117);
+            this.btnCancelar.Location = new System.Drawing.Point(201, 143);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 4;
@@ -115,7 +117,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 88);
+            this.label4.Location = new System.Drawing.Point(12, 92);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 9;
@@ -125,17 +127,36 @@
             // 
             this.cboZona.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboZona.FormattingEnabled = true;
-            this.cboZona.Location = new System.Drawing.Point(107, 85);
+            this.cboZona.Location = new System.Drawing.Point(107, 89);
             this.cboZona.Name = "cboZona";
             this.cboZona.Size = new System.Drawing.Size(169, 21);
             this.cboZona.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 119);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Codigo Planilla:";
+            // 
+            // txtCodigoPlanilla
+            // 
+            this.txtCodigoPlanilla.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCodigoPlanilla.Location = new System.Drawing.Point(107, 116);
+            this.txtCodigoPlanilla.Name = "txtCodigoPlanilla";
+            this.txtCodigoPlanilla.Size = new System.Drawing.Size(169, 20);
+            this.txtCodigoPlanilla.TabIndex = 11;
             // 
             // frmManTrabajadorCrea
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(303, 152);
+            this.ClientSize = new System.Drawing.Size(303, 183);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtCodigoPlanilla);
             this.Controls.Add(this.cboZona);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -169,5 +190,7 @@
         private System.Windows.Forms.TextBox txtApeMat;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cboZona;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCodigoPlanilla;
     }
 }

@@ -44,6 +44,13 @@ namespace MadScienceBE
             set { nombreZona = value; }
         }
 
+        private string codigoPlanilla;
+
+        public string CodigoPlanilla
+        {
+            get { return codigoPlanilla; }
+            set { codigoPlanilla = value; }
+        }
 
     }
 }

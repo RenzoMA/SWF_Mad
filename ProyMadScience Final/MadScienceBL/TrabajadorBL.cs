@@ -237,6 +237,26 @@ namespace MadScienceBL
                 tra.CodigoZona = listaTraBD.Where(tx => tx.Codigo == tra.CodigoTrabajador).FirstOrDefault().CodigoZona;
                 tra.NombreZona = lZona.Where(tx => tx.Codigo == tra.CodigoZona).FirstOrDefault().Nombre;
             }
+
+            int encontrado=0;
+            for (int i = listaTrabajador.Count-1; i >= 0; i--)
+            {
+                encontrado=0;
+                foreach (EspecialidadEntity espe in listaEspecialidad)
+                {
+                    if (listaTrabajador[i].CodigoTrabajador == espe.CodigoTrabajador)
+                    {
+                        encontrado = 1;
+                        break;
+                    }
+                }
+                if (encontrado == 0)
+                {
+                    listaTrabajador.RemoveAt(i);
+                }
+            }
+
+
             return listaTrabajador;
 
         }

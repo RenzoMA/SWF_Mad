@@ -200,7 +200,7 @@
             // 
             this.lblZona.AutoSize = true;
             this.lblZona.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblZona.Location = new System.Drawing.Point(10, 9);
+            this.lblZona.Location = new System.Drawing.Point(10, 12);
             this.lblZona.Name = "lblZona";
             this.lblZona.Size = new System.Drawing.Size(58, 24);
             this.lblZona.TabIndex = 17;
@@ -251,7 +251,7 @@
             this.groupBox1.Size = new System.Drawing.Size(598, 155);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Fiestas en el dia trabajador seleccionado";
+            this.groupBox1.Text = "Fiestas en el dia del trabajador seleccionado";
             // 
             // dgvConsultaAsignaciones
             // 

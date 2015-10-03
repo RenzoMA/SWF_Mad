@@ -136,6 +136,7 @@ namespace MadScienceAdo.ACCESS
                         objReserva.UsuarioCrea = dtr.GetValue(dtr.GetOrdinal("usr_crea")).ToString();
                         objReserva.FechaCrea = Convert.ToDateTime((dtr.GetValue(dtr.GetOrdinal("fch_creacion")).ToString()));
                         objReserva.FiestaDoble = dtr.GetValue(dtr.GetOrdinal("flg_doble")).ToString();
+                        objReserva.UltimaHora = dtr.GetValue(dtr.GetOrdinal("ultima_hora")).ToString();
                         listaReservas.Add(objReserva);
                     }
                     dtr.Close();
@@ -202,6 +203,7 @@ namespace MadScienceAdo.ACCESS
                     objReserva.UsuarioCrea = dtr.GetValue(dtr.GetOrdinal("usr_crea")).ToString();
                     objReserva.FechaCrea = Convert.ToDateTime((dtr.GetValue(dtr.GetOrdinal("fch_creacion")).ToString()));
                     objReserva.FiestaDoble = dtr.GetValue(dtr.GetOrdinal("flg_doble")).ToString();
+                    objReserva.UltimaHora = dtr.GetValue(dtr.GetOrdinal("ultima_hora")).ToString();
                     dtr.Close();
                 }
                 return objReserva;
@@ -228,15 +230,15 @@ namespace MadScienceAdo.ACCESS
             String sql;
             if (t.CodigoTienda == null)
             {
-                sql = String.Format("insert into tb_reserva (id_tipo_evento,id_usuario,direccion,nombreNiño,fechaNacimiento,telefono,celular,nombreCliente,fechaCelebracion,horaInicio,horaFin,modeloTorta,saborTorta,obsTorta2,invitados,obsGeneral,flg_estado,usr_crea,fch_creacion,flg_doble) " +
-                                            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}','{16}','{17}','{18}','{19}')",
-                                            t.CodigoTipoEvento, t.CodigoUsuario, t.Direccion, t.NombreNiño, t.FechaNacimiento, t.Telefono, t.Celular, t.NombreCliente, t.FechaCelebracion, t.HoraInicio, t.HoraFin, t.ModeloTorta, t.SaborTorta, t.ObsTorta, t.Invitados, t.ObsGeneral, t.Estado, t.UsuarioCrea, DateTime.Now,t.FiestaDoble);
+                sql = String.Format("insert into tb_reserva (id_tipo_evento,id_usuario,direccion,nombreNiño,fechaNacimiento,telefono,celular,nombreCliente,fechaCelebracion,horaInicio,horaFin,modeloTorta,saborTorta,obsTorta2,invitados,obsGeneral,flg_estado,usr_crea,fch_creacion,flg_doble,ultima_hora) " +
+                                            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}','{16}','{17}','{18}','{19}','{20}')",
+                                            t.CodigoTipoEvento, t.CodigoUsuario, t.Direccion, t.NombreNiño, t.FechaNacimiento, t.Telefono, t.Celular, t.NombreCliente, t.FechaCelebracion, t.HoraInicio, t.HoraFin, t.ModeloTorta, t.SaborTorta, t.ObsTorta, t.Invitados, t.ObsGeneral, t.Estado, t.UsuarioCrea, DateTime.Now,t.FiestaDoble,t.UltimaHora);
             }
             else
             {
-                sql = String.Format("insert into tb_reserva (id_tipo_evento,id_tienda,id_usuario,direccion,nombreNiño,fechaNacimiento,telefono,celular,nombreCliente,fechaCelebracion,horaInicio,horaFin,modeloTorta,saborTorta,obsTorta2,invitados,obsGeneral,flg_estado,usr_crea,fch_creacion,flg_doble) " +
-                                            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}','{16}','{17}','{18}','{19}','{20}')",
-                                            t.CodigoTipoEvento, t.CodigoTienda,t.CodigoUsuario, t.Direccion, t.NombreNiño, t.FechaNacimiento, t.Telefono, t.Celular, t.NombreCliente, t.FechaCelebracion, t.HoraInicio, t.HoraFin, t.ModeloTorta, t.SaborTorta, t.ObsTorta, t.Invitados, t.ObsGeneral, t.Estado, t.UsuarioCrea, DateTime.Now,t.FiestaDoble);
+                sql = String.Format("insert into tb_reserva (id_tipo_evento,id_tienda,id_usuario,direccion,nombreNiño,fechaNacimiento,telefono,celular,nombreCliente,fechaCelebracion,horaInicio,horaFin,modeloTorta,saborTorta,obsTorta2,invitados,obsGeneral,flg_estado,usr_crea,fch_creacion,flg_doble,ultima_hora) " +
+                                            "values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}','{16}','{17}','{18}','{19}','{20}','{21}')",
+                                            t.CodigoTipoEvento, t.CodigoTienda,t.CodigoUsuario, t.Direccion, t.NombreNiño, t.FechaNacimiento, t.Telefono, t.Celular, t.NombreCliente, t.FechaCelebracion, t.HoraInicio, t.HoraFin, t.ModeloTorta, t.SaborTorta, t.ObsTorta, t.Invitados, t.ObsGeneral, t.Estado, t.UsuarioCrea, DateTime.Now,t.FiestaDoble,t.UltimaHora);
             }
             String sql2 = "SELECT @@Identity";
 
@@ -318,6 +320,7 @@ namespace MadScienceAdo.ACCESS
                         objReserva.UsuarioCrea = dtr.GetValue(dtr.GetOrdinal("usr_crea")).ToString();
                         objReserva.FechaCrea = Convert.ToDateTime((dtr.GetValue(dtr.GetOrdinal("fch_creacion")).ToString()));
                         objReserva.FiestaDoble = dtr.GetValue(dtr.GetOrdinal("flg_doble")).ToString();
+                        objReserva.UltimaHora = dtr.GetValue(dtr.GetOrdinal("ultima_hora")).ToString();
                         listaReservas.Add(objReserva);
                     }
                     dtr.Close();

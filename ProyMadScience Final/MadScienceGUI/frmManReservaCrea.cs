@@ -196,6 +196,10 @@ namespace MadScienceGUI
                         {
                             objReserva.CodigoTienda = Convert.ToInt16(cboTienda.SelectedValue.ToString());
                         }
+                        if (cbUltimaHora.Checked)
+                        {
+                            objReserva.UltimaHora = "SI";
+                        }
                         objReserva.NombreCliente = txtCliente.Text.ToUpper().Trim();
                         objReserva.NombreNiño = txtNiño.Text.ToUpper().Trim();
                         objReserva.CodigoTipoEvento = Convert.ToInt16(cboTipo.SelectedValue.ToString());

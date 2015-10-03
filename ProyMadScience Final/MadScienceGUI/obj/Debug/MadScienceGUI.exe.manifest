@@ -55,50 +55,50 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceAdo.dll" size="214528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceAdo.dll" size="215552">
       <assemblyIdentity name="MadScienceAdo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>TPrOR4yrSuo9KahdSTF/lfYurpA=</dsig:DigestValue>
+        <dsig:DigestValue>q0uTeyXvThj0Wdik23uowV5vtO4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceBE.dll" size="29184">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceBE.dll" size="29696">
       <assemblyIdentity name="MadScienceBE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>wb854mfFbOLd/6Jhw2DbdYYmYJY=</dsig:DigestValue>
+        <dsig:DigestValue>wMaddOgoangn583KO0h9lZahTcM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceBL.dll" size="103936">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceBL.dll" size="104448">
       <assemblyIdentity name="MadScienceBL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>lb+3F9k1p8fQIsnhix3wv7d9ZWc=</dsig:DigestValue>
+        <dsig:DigestValue>odXkZMZ1U3hJ8L4QVXwo8MTGUf8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceGUI.exe" size="1958912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadScienceGUI.exe" size="1965568">
       <assemblyIdentity name="MadScienceGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>qhs+3RPr8CU6mP1ayN/LTe/WB9A=</dsig:DigestValue>
+        <dsig:DigestValue>eG7d16A/SmQZ9twEQyasfIon5Fg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
